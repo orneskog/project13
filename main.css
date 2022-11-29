@@ -4,6 +4,29 @@ body {
     margin: auto;
     color: #C2D7B0;
 }
+a:link {
+    color: #C2D7B0;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #C2D7B0;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #C2D7B0;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #C2D7B0;
+    text-decoration: none;
+  }
 header {
     background-color: #FDF8ED;
     font-family: "Futura-CondensedMedium";
@@ -11,6 +34,8 @@ header {
     text-transform: uppercase;
     font-size: 24pt;
     text-align: center;
+    width: 100%;
+    position: fixed;
   }
   .recipetext {
     font-family: "Futura";
@@ -26,7 +51,7 @@ header {
     padding-bottom: 30px;
   }
 .header {  display: grid;
-    grid-template-columns: 326px 1fr 1fr 1fr 1fr 1fr 0.5fr 60px;
+    grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
     grid-template-rows: 100px;
     gap: 10px 10px;
     grid-auto-flow: row;
@@ -46,6 +71,7 @@ padding-top: 20px;    margin-left: 10px;
 }
 .heroimg {
 max-width: 100%;
+margin-top: 100px;
 }
 .recipestartpage {
     display: grid;
@@ -82,7 +108,14 @@ max-width: 100%;
     margin-top: 46px;
     } 
  }
-
+ @media screen and (max-width:834px){
+    header {
+    font-size: 12pt;
+    }
+    .linkheader {
+    margin-top: 56px;
+    } 
+ }
  @media screen and (max-width:590px){
     .recipestartpage {
     max-width: 300px;
