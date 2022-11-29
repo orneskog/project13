@@ -1,5 +1,5 @@
 body {
-    font-family: Futura;
+    font-family: "Futura";
     background-color: #FDF8ED;
     margin: auto;
 }
@@ -17,7 +17,7 @@ header {
     gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
-      "logotype space packages recipes aboutus contact basket";
+      "logotype space packages recipes aboutus contact space basket";
   }  
 .logotype_header {
 padding-top: 20px;    margin-left: 10px;
@@ -39,7 +39,7 @@ max-width: 100%;
     gap: 10px;
     text-align: center;
     max-width: 1220px;
-    /* margin: auto; */
+    margin: auto;
 }
 .recipestartpageimage {
  max-width: 280px;
