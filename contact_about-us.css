@@ -1,8 +1,8 @@
 body {
     font-family: "Futura";
-    background-color: #FDF8ED;
+    background-color: #C2D7B0;
     margin: auto;
-    color: #C2D7B0;
+    color: #FDF8ED;
 }
 a:link {
     color: #C2D7B0;
@@ -37,22 +37,41 @@ header {
     width: 100%;
     position: fixed;
   }
-  .recipetext {
+  .contentcontact {
+    padding-top: 300px;
+  }
+  .contentaboutus {
+    padding-top: 200px;
+  }
+  .maintext {
     font-family: "Futura";
     text-transform: uppercase;
-    font-size: 28pt;
+    font-size: 24pt;
     text-align: center;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-weight: bold;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
   }  
+  .maintextbigger {
+    font-family: "Futura";
+    text-transform: uppercase;
+    font-size: 54pt;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+  } 
   .subtext {
-    font-family: "Futura-CondensedMedium";    
+    font-family: "Futura";    
     text-transform: uppercase;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
+    font-size: 14pt;
+    padding: 10px;
+    padding-top: 30px;
+    max-width: 600px;
+    margin: auto;
   }
 .header {  display: grid;
     grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
@@ -73,39 +92,7 @@ padding-top: 20px;    margin-left: 10px;
     max-height: 60px;
     margin-right: 10px;
 }
-.heroimg {
-max-width: 100%;
-margin-top: 100px;
-}
-.recipestartpage {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 280px);
-    justify-content: center;
-    gap: 30px;
-    max-width: 1220px;
-    margin: auto;
-    font-family: "Futura";
-    text-transform: uppercase;
-    font-size: 16pt;
-    padding: 10px;
-    padding-bottom: 30px;
-}
-.recipestartpageimage {
- max-width: 280px;
- border-radius: 30px;
-}
-.linkrecipestartpage {
-    float: right;
-    margin-right: 5px;
-    font-size: 12pt;
-    font-weight: bold;
-}
 
-@media screen and (max-width:1230px){
-    .recipestartpage {
-    max-width: 800px;
-    }
-}
 @media screen and (max-width:1024px){
     header {
     font-size: 18pt;
@@ -122,8 +109,3 @@ margin-top: 100px;
     margin-top: 56px;
     } 
  }
- @media screen and (max-width:590px){
-    .recipestartpage {
-    max-width: 300px;
-    }
-}
