@@ -69,11 +69,22 @@ max-width: 100%;
     font-weight: bold;
 }
 
-    @media screen and (max-width:1025px){
-header {
-    font-size: 18pt;
-}
-.linkheader {
-    margin-top: 46px;
-}
+@media screen and (max-width:1210px){
+    .recipestartpage {
+    max-width: 800px;
     }
+}
+@media screen and (max-width:1024px){
+    header {
+    font-size: 18pt;
+    }
+    .linkheader {
+    margin-top: 46px;
+    } 
+ }
+
+ @media screen and (max-width:590px){
+    .recipestartpage {
+    max-width: 300px;
+    }
+}
