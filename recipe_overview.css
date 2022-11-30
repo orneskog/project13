@@ -4,6 +4,28 @@ body {
   margin: auto;
   color: #c2d7b0;
 }
+a:link {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c2d7b0;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #c2d7b0;
+  text-decoration: none;
+}
 header {
   background-color: #fdf8ed;
   font-family: "Futura-CondensedMedium";
