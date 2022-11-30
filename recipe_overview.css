@@ -12,7 +12,7 @@ a:link {
 a:visited {
   color: #c2d7b0;
   text-decoration: none;
-
+}
 /* mouse over link */
 a:hover {
   color: #C2D7B0;
@@ -117,4 +117,21 @@ p {
 }
 .coco {
   margin-left: -160px;
+}
+
+@media screen and (max-width:1024px){
+  header {
+  font-size: 18pt;
+  }
+  .linkheader {
+  margin-top: 46px;
+  } 
+}
+@media screen and (max-width:834px){
+  header {
+  font-size: 12pt;
+  }
+  .linkheader {
+  margin-top: 56px;
+  } 
 }
