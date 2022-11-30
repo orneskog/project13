@@ -2,9 +2,26 @@ body {
   font-family: "Futura";
   background-color: #c2d7b0;
   margin: auto;
-  color: #c2d7b0;
 }
 a:link {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c2d7b0;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
   color: #c2d7b0;
   text-decoration: none;
 }
@@ -38,85 +55,66 @@ header {
   max-height: 60px;
   margin-right: 10px;
 }
-p {
-  color: #fdf8ed;
-  font-family: "Futura";
-  text-transform: uppercase;
-  font-size: 22pt;
-  text-align: left;
-  margin-top: -35px;
-}
-.recipetext {
-  font-family: "Futura";
-  text-transform: uppercase;
-  font-size: 28pt;
-  text-align: center;
-  padding-top: 30px;
-}
-.subtext {
-  font-family: "Futura-CondensedMedium";
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.recipecontainer {
+.recipestartpage {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 52px;
-  margin-left: 1cm;
-  margin-top: 1cm;
-  text-align: center;
-  max-width: 1244px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 30px;
+  max-width: 1220px;
   margin: auto;
-  margin-top: 100px;
-  padding-top: 100px;
+  font-family: "Futura";
+  text-transform: uppercase;
+  font-size: 16pt;
+  padding: 20px;
   padding-bottom: 30px;
-}
-
-.drinks {
-  width: 380px;
-  height: 600px;
-  background-color: #fdf8ed;
-}
-
-.savory {
-  width: 380px;
-  height: 600px;
-  background-color: #fdf8ed;
-}
-
-.sweet {
-  width: 380px;
-  height: 600px;
-  background-color: #fdf8ed;
+  margin-top: 100px;
 }
 .smoothie {
-  margin-left: -160px;
-  margin-bottom: 30px;
-  color: #c2d7b0;
+  max-width: 150px;
 }
 .mimosa {
-  margin-left: -160px;
-  margin-bottom: 30px;
+  max-width: 150px;
 }
 .coco {
-  margin-left: -160px;
+  max-width: 150px;
 }
-/* visited link */
-a:visited {
-  color: #c2d7b0;
-  text-decoration: none;
+.avocado {
+  max-width: 150px;
 }
-
-/* mouse over link */
-a:hover {
-  color: #c2d7b0;
-  text-decoration: underline;
+.salmon {
+  max-width: 150px;
 }
-
-/* selected link */
-a:active {
-  color: #c2d7b0;
-  text-decoration: none;
+.egg {
+  max-width: 150px;
+}
+.acaibowl {
+  max-width: 150px;
+}
+.swewaffles {
+  max-width: 150px;
+}
+.pancaces {
+  max-width: 150px;
+}
+.linkrecipestartpage {
+  float: right;
+  margin-right: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+section {
+  background-color: #fdf8ed;
+  padding: 10px;
+  padding-bottom: 30px;
+  height: 500px;
+}
+h4 {
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fdf8ed;
+}
+h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
