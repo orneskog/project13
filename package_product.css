@@ -119,7 +119,7 @@ padding-top: 20px;    margin-left: 10px;
 #box-choose-recipe {
     background-color: #FDF8ED;
     width: 400px;
-    height: 600px;
+    height: 500px;
 }
 
 .img {
@@ -158,6 +158,8 @@ padding-top: 20px;    margin-left: 10px;
   border: #C2D7B0;
   width: 150px;
   height: 40px;
+  margin-top: 430px;
+  margin-left: 125px;
 }
 
 
