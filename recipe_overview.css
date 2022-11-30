@@ -5,26 +5,9 @@ body {
   color: #c2d7b0;
 }
 a:link {
-  color: #C2D7B0;
-  text-decoration: none;
-}
 
-/* visited link */
-a:visited {
-  color: #C2D7B0;
-  text-decoration: none;
+  color: #c2d7b0;
 
-}
-
-/* mouse over link */
-a:hover {
-  color: #C2D7B0;
-  text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-  color: #C2D7B0;
   text-decoration: none;
 }
 header {
@@ -37,16 +20,14 @@ header {
   width: 100%;
   position: fixed;
 }
-.header {  display: grid;
+
+
   grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
   grid-template-rows: 100px;
   gap: 10px 10px;
   grid-auto-flow: row;
-  grid-template-areas:
-    "logotype space packages recipes aboutus contact space basket";
-}  
-.logotype_header {
-padding-top: 20px;    margin-left: 10px;
+
+
 }
 .linkheader {
   margin-top: 41px;
@@ -120,4 +101,21 @@ p {
 }
 .coco {
   margin-left: -160px;
+}
+/* visited link */
+a:visited {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c2d7b0;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #c2d7b0;
+  text-decoration: none;
 }
