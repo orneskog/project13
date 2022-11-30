@@ -104,7 +104,7 @@ padding-top: 20px;    margin-left: 10px;
     grid-auto-flow: row;
     margin-left: 75px;
     margin-top: 150px;
-    padding-bottom: 70px;
+    padding-bottom: 45px;
     max-width: 1244px;
 }
 
@@ -149,6 +149,15 @@ padding-top: 20px;    margin-left: 10px;
     color: #FDF8ED;
     margin-top: -45px;
     padding-left: 967px;
+}
+
+
+.button {
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  border: #C2D7B0;
+  width: 150px;
+  height: 40px;
 }
 
 
