@@ -7,7 +7,6 @@ a:link {
   color: #c2d7b0;
   text-decoration: none;
 }
-
 /* visited link */
 a:visited {
   color: #c2d7b0;
@@ -70,31 +69,31 @@ header {
   margin-top: 100px;
 }
 .smoothie {
-  max-width: 150px;
+  max-width: 120px;
 }
 .mimosa {
-  max-width: 150px;
+  max-width: 120px;
 }
 .coco {
-  max-width: 150px;
+  max-width: 120px;
 }
 .avocado {
-  max-width: 150px;
+  max-width: 120px;
 }
 .salmon {
-  max-width: 150px;
+  max-width: 120px;
 }
 .egg {
-  max-width: 150px;
+  max-width: 120px;
 }
 .acaibowl {
-  max-width: 150px;
+  max-width: 120px;
 }
 .swewaffles {
-  max-width: 150px;
+  max-width: 120px;
 }
 .pancaces {
-  max-width: 150px;
+  max-width: 120px;
 }
 .linkrecipestartpage {
   float: right;
@@ -115,6 +114,19 @@ h4 {
   color: #fdf8ed;
 }
 h5 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: -2px;
+  float: right;
+  font-size: 16px;
+  max-width: 145px;
+}
+h6 {
+  font-weight: lighter;
+}
+@media screen and (max-width: 834px) {
+  header {
+    font-size: 12pt;
+  }
+  .linkheader {
+    margin-top: 56px;
+  }
 }
