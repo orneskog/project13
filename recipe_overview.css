@@ -121,6 +121,8 @@ h5 {
 }
 h6 {
   font-weight: lighter;
+  margin-left: 202px;
+  margin-top: -21px;
 }
 @media screen and (max-width: 834px) {
   header {
