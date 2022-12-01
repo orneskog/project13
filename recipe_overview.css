@@ -68,31 +68,7 @@ header {
   padding-bottom: 30px;
   margin-top: 100px;
 }
-.smoothie {
-  max-width: 120px;
-}
-.mimosa {
-  max-width: 120px;
-}
-.coco {
-  max-width: 120px;
-}
-.avocado {
-  max-width: 120px;
-}
-.salmon {
-  max-width: 120px;
-}
-.egg {
-  max-width: 120px;
-}
-.acaibowl {
-  max-width: 120px;
-}
-.swewaffles {
-  max-width: 120px;
-}
-.pancaces {
+.recipe {
   max-width: 120px;
 }
 .linkrecipestartpage {
@@ -104,8 +80,7 @@ header {
 section {
   background-color: #fdf8ed;
   padding: 10px;
-  padding-bottom: 30px;
-  height: 500px;
+  padding-bottom: 1px;
 }
 h4 {
   font-weight: lighter;
