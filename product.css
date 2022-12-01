@@ -160,7 +160,9 @@ height: 400px;
 section {
   background-color: #FDF8ED;
 }
-
+.listcolumns {
+  column-count: 2;
+}
 @media screen and (max-width:1230px){
     .recipestartpage {
     max-width: 800px;
