@@ -27,12 +27,26 @@ a:active {
     color: #C2D7B0;
     text-decoration: none;
   }
+  h1 {
+    font-weight: lighter;
+    font-size: 24pt;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+  }
   h4 {
     font-weight: lighter;
-    font-size: 32px;
-    color: #C2D7B0;
-    margin: 10px;
+    font-size: 18pt;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-transform: uppercase;
+    text-align: center;
   }
 header {
     background-color: #FDF8ED;
@@ -65,12 +79,26 @@ padding-top: 20px;    margin-left: 10px;
 }
 .headline_text {
   margin: auto;
-  margin-top: 150px;
+  margin-top: 120px;
+  justify-content: center;
+  width: 400px;
+  background-color: #FDF8ED;
+  color: #C2D7B0;
+}
+.basket_headline {
+  max-width: 30px;
+}
+.content {
+  margin: auto;
   justify-content: center;
   width: 400px;
   height: 400px;
   background-color: #FDF8ED;
   color: #C2D7B0;
+  text-align: center;
+}
+.iconcontent {
+  max-width: 100px;
 }
 @media screen and (max-width:1024px){
     header {
