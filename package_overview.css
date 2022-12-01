@@ -55,7 +55,7 @@ header {
   max-height: 60px;
   margin-right: 10px;
 }
-.recipestartpage {
+.gridpackages {
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
@@ -73,7 +73,7 @@ header {
   max-width: 280px;
   border-radius: 30px;
 }
-.linkrecipestartpage {
+.linkpackage {
   float: right;
   margin-right: 5px;
   font-size: 12pt;
@@ -96,6 +96,35 @@ h5 {
   margin-bottom: 15px;
 }
 
+@media screen and (max-width:1000px){
+  .gridpackages {
+    max-width: 790px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+  }
+  .peopleimage {
+    max-width: 230px;
+    border-radius: 20px;
+  }
+  h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #fdf8ed;
+  }
+  h5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12pt;
+  }
+  .linkpackage {
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+}
 @media screen and (max-width:1024px){
     header {
     font-size: 18pt;
@@ -110,5 +139,31 @@ h5 {
     }
     .linkheader {
     margin-top: 56px;
-    } 
+    }
+    .gridpackages {
+      max-width: 300px;
+      grid-template-columns: repeat(auto-fit, 300px);
+      gap: 30px;
+    }
+    .peopleimage {
+      max-width: 280px;
+      border-radius: 30px;
+    }
+    h4 {
+      font-weight: lighter;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fdf8ed;
+    }
+    h5 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .linkpackage {
+      float: right;
+      margin-right: 5px;
+      font-size: 12pt;
+      font-weight: bold;
+    }
  }
+ 
