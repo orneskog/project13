@@ -1,58 +1,84 @@
-body {
-  font-family: "Futura";
-  background-color: #c2d7b0;
-  margin: auto;
-}
 a:link {
-  color: #c2d7b0;
+  color: #C2D7B0;
   text-decoration: none;
 }
+
 /* visited link */
 a:visited {
-  color: #c2d7b0;
+  color: #C2D7B0;
   text-decoration: none;
+
 }
 
 /* mouse over link */
 a:hover {
-  color: #c2d7b0;
+  color: #C2D7B0;
   text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: #c2d7b0;
+  color: #C2D7B0;
   text-decoration: none;
 }
+
+body {
+  font-family: "Futura";
+  background-color: #C2D7B0;
+  margin: auto;
+  color: #FDF8ED;
+}
+/* The following code is the header */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 header {
-  background-color: #fdf8ed;
-  font-family: "Futura-CondensedMedium";
-  /* https://careerkarma.com/blog/css-all-caps/ Used this link to get all letters in uppercase. /CÖ*/
+ background-color: #FDF8ED;
+ position: fixed;
+ width: 100%;
+}
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
   text-transform: uppercase;
-  font-size: 24pt;
-  text-align: center;
-  width: 100%;
-  position: fixed;
+  font-family: "Futura-CondensedMedium";
+  font-size: 18pt;
+  list-style: none;
+  }
+.nav-menu{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 60px;
 }
-.header {
-  display: grid;
-  grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
-  grid-template-rows: 100px;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  grid-template-areas: "logotype space packages recipes aboutus contact space basket";
+.nav-branding{
+font-size: 30pt;
+padding-right: 20px;
+width: 300px;
 }
-.logotype_header {
-  padding-top: 20px;
-  margin-left: 10px;
+.nav-link{
+transition: 0.7s ease;
 }
-.linkheader {
-  margin-top: 41px;
+.hamburger{
+display: none;
+cursor: pointer;
+}
+.bar{
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: #FDF8ED;
 }
 .basketheader {
-  margin-top: 36px;
-  max-height: 60px;
-  margin-right: 10px;
+  height: 30px;
 }
 .recipestartpage {
   display: grid;
@@ -80,7 +106,6 @@ header {
 section {
   background-color: #fdf8ed;
   padding: 10px;
-  padding-bottom: 1px;
 }
 h4 {
   font-weight: lighter;
@@ -93,17 +118,55 @@ h5 {
   float: right;
   font-size: 16px;
   max-width: 145px;
+  color: #000000;
 }
 h6 {
   font-weight: lighter;
   margin-left: 202px;
   margin-top: -21px;
 }
-@media screen and (max-width: 834px) {
-  header {
-    font-size: 12pt;
-  }
-  .linkheader {
-    margin-top: 56px;
+@media(max-width:1000px){
+  .navbar {
+    font-size: 14pt;
   }
 }
+@media(max-width:833px){
+  .bar {
+    background-color: #C2D7B0;
+  }
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);  
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);  
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #FDF8ED;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-branding{
+    width: 250px;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu.active{
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
+    /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+  
+  }

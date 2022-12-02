@@ -1,32 +1,86 @@
-body {
-    font-family: "Futura";
-    background-color: #C2D7B0;
-    margin: auto;
-    color: #FDF8ED;
-}
 a:link {
-    color: #C2D7B0;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-a:visited {
-    color: #C2D7B0;
-    text-decoration: none;
+  color: #C2D7B0;
+  text-decoration: none;
+}
 
-  }
-  
-  /* mouse over link */
+/* visited link */
+a:visited {
+  color: #C2D7B0;
+  text-decoration: none;
+
+}
+
+/* mouse over link */
 a:hover {
-    color: #C2D7B0;
-    text-decoration: underline;
-  }
-  
-  /* selected link */
+  color: #C2D7B0;
+  text-decoration: underline;
+}
+
+/* selected link */
 a:active {
-    color: #C2D7B0;
-    text-decoration: none;
+  color: #C2D7B0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Futura";
+  background-color: #C2D7B0;
+  margin: auto;
+  color: #FDF8ED;
+}
+/* The following code is the header */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+ background-color: #FDF8ED;
+ position: fixed;
+ width: 100%;
+}
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-family: "Futura-CondensedMedium";
+  font-size: 18pt;
+  list-style: none;
   }
+.nav-menu{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 60px;
+}
+.nav-branding{
+font-size: 30pt;
+padding-right: 20px;
+width: 300px;
+}
+.nav-link{
+transition: 0.7s ease;
+}
+.hamburger{
+display: none;
+cursor: pointer;
+}
+.bar{
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: #FDF8ED;
+}
+.basketheader {
+  height: 30px;
+}
+
 h4 {
     font-size: 26px;
     margin-top: 15px;
@@ -69,9 +123,9 @@ h5 {
   background-color: #C2D7B0;
   width: 140px;
   height: 50px;
-  font-size: 9pt;
-  margin-top: 20px;
-  padding-top: 8px;
+  font-size: 8pt;
+  margin-top: 18px;
+  padding-top: 6px;
   margin-right: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -85,42 +139,14 @@ h5 {
   margin-left: 15px; 
 }
 
-.gotopackage{
+/* .gotopackage{
   background-color: #C2D7B0;
   padding-top: 10px;
   width: 800px;
   height: 50px;
   font-size: 6pt;
-}
-header {
-    background-color: #FDF8ED;
-    font-family: "Futura-CondensedMedium";
-    /* https://careerkarma.com/blog/css-all-caps/ Used this link to get all letters in uppercase. /CÖ*/
-    text-transform: uppercase;
-    font-size: 24pt;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-  }
-.header {  display: grid;
-    grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
-    grid-template-rows: 100px;
-    gap: 10px 10px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "logotype space packages recipes aboutus contact space basket";
-  }  
-.logotype_header {
-padding-top: 20px;    margin-left: 10px;
-}
-.linkheader {
-    margin-top: 41px;
-}
-.basketheader {
-    margin-top: 36px;
-    max-height: 60px;
-    margin-right: 10px;
-}
+} */
+
 .recipetext {
     font-family: "Futura";
     text-transform: uppercase;
@@ -142,7 +168,7 @@ padding-top: 20px;    margin-left: 10px;
   max-width: 1030px;
   font-family: "Futura";
   font-size: 16pt;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .recipeimage {
 width: 500px;
@@ -172,29 +198,164 @@ section {
   text-transform: uppercase;
 
 }
-@media screen and (max-width:1230px){
-    .recipestartpage {
-    max-width: 800px;
+@media(max-width:1030px){
+  .recipegrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    max-width: 820px;
+    font-family: "Futura";
+    font-size: 16pt;
+    margin-top: 100px;
+  }
+  .productcontentgrid {  display: grid;
+    grid-template-columns: 280px 120px;
+    grid-template-rows: 100px 150px 150px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "headlinegrid buttongrid"
+      "contentgrid contentgrid"
+      "contentgrid contentgrid";
+  }
+  .recipeimage {
+    width: 400px;
+    height: 400px;
     }
+  .contentgrid {
+      grid-area: contentgrid;
+      color: #000000;
+      font-size: 8pt;
+      max-width: 380px;
+      font-weight: lighter;
+      margin-left: 15px; 
+    }
+    h5 {
+      margin-top: -15px;
+      margin-bottom: 0px;
+      margin-left: 2px;
+      font-size: 12pt;
+      color: #000000;
+      text-transform: uppercase;
+  }
+  .button {
+    background-color: #C2D7B0;
+    width: 100px;
+    height: 50px;
+    font-size: 7pt;
+    margin-top: 18px;
+    padding-top: 8px;
+    margin-right: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
-@media screen and (max-width:1024px){
-    header {
-    font-size: 18pt;
-    }
-    .linkheader {
-    margin-top: 46px;
-    } 
- }
- @media screen and (max-width:834px){
-    header {
-    font-size: 12pt;
-    }
-    .linkheader {
-    margin-top: 56px;
-    } 
- }
- @media screen and (max-width:590px){
-    .recipestartpage {
-    max-width: 300px;
-    }
+@media(max-width:1000px){
+  .navbar {
+    font-size: 14pt;
+  }
 }
+@media(max-width:833px){
+  .bar {
+    background-color: #C2D7B0;
+  }
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);  
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);  
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #FDF8ED;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-branding{
+    width: 250px;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu.active{
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
+    /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+  
+    .recipegrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      justify-content: center;
+      margin: auto;
+      gap: 20px;
+      max-width: 300px;
+      font-family: "Futura";
+      font-size: 16pt;
+      margin-top: 80px;
+    }
+    .productcontentgrid {  display: grid;
+      grid-template-columns: 200px 100px;
+      grid-template-rows: 100px 150px 150px;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "headlinegrid buttongrid"
+        "contentgrid contentgrid"
+        "contentgrid contentgrid";
+    }
+    .recipeimage {
+      width: 300px;
+      height: 300px;
+      }
+    .contentgrid {
+        grid-area: contentgrid;
+        color: #000000;
+        font-size: 7.5pt;
+        max-width: 280px;
+        font-weight: lighter;
+        margin-left: 15px; 
+      }
+      h4 {
+        font-size: 14pt;
+        margin-top: 8px;
+        color: #C2D7B0;
+        max-width: 180px;
+        margin-left: 15px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+      h5 {
+        margin-top: -20px;
+        margin-bottom: -5px;
+        margin-left: 2px;
+        font-size: 10pt;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    .button {
+      background-color: #C2D7B0;
+      width: 80px;
+      height: 50px;
+      font-size: 6pt;
+      margin-top: 12px;
+      padding-top: 8px;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }

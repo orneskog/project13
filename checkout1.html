@@ -9,15 +9,33 @@
     <title>Brunchly Checkout 1</title>
 </head>
 <body>
-    <header class="header">
-        <div><a href="index.html"><img src="images/brunchly_logotype_rgb.svg" alt="Image of Brunchly's Logotype" class="logotype_header"/></a></div>
-        <div class="linkheader"> </div>
-        <div class="linkheader"><a href="package_overview.html">Packages</a></div>
-        <div class="linkheader"><a href="recipe_overview.html">Recipes</a></div>
-        <div class="linkheader"><a href="aboutus.html">About Us</a></div>
-        <div class="linkheader"><a href="contact.html">Contact</a></div>
-        <div class="linkheader"> </div>
-        <div class="linkheaderbasket"><a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a></div>
-    </header> 
+    <header>
+        <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
+        <nav class="navbar">
+            <a href="index.html"><img src="images/brunchly_logotype_rgb.svg" class="nav-branding"/></a> 
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="package_overview.html" class="nav-link">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="recipe_overview.html" class="nav-link">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
