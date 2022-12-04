@@ -26,46 +26,8 @@ a:active {
   color: #c2d7b0;
   text-decoration: none;
 }
-h4 {
-  font-size: 26px;
-  margin-top: 5px;
-  color: #c2d7b0;
-  max-width: 300px;
-  margin-left: 10px;
-  margin-bottom: -10px;
-  color: #000000;
-}
-h5 {
-  margin-top: -10px;
-  margin-bottom: 0px;
-  font-size: 12pt;
-  color: #000000;
-}
 .clockicon {
   max-width: 11pt;
-}
-.checkoutgrid {
-  display: grid;
-  grid-template-columns: 280px;
-  grid-template-rows: 100px 150px 150px;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "headlinegrid buttongrid"
-    "contentgrid contentgrid"
-    "contentgrid contentgrid";
-}
-
-.buttongrid {
-  grid-area: buttongrid;
-  background-color: #c2d7b0;
-  width: 110px;
-  height: 50px;
-  font-size: 7.5pt;
-  margin-top: 10px;
-  margin-right: 10px;
-  padding-top: 10px;
-  text-align: center;
 }
 
 .contentgrid {
@@ -75,14 +37,6 @@ h5 {
   max-width: 380px;
   font-weight: lighter;
   margin-left: 10px;
-}
-
-.gotopackage {
-  background-color: #c2d7b0;
-  padding-top: 10px;
-  width: 800px;
-  height: 50px;
-  font-size: 6pt;
 }
 header {
   background-color: #fdf8ed;
@@ -132,27 +86,22 @@ header {
   justify-content: center;
   margin: auto;
   gap: 30px;
-  max-width: 830px;
+  max-width: 700px;
   font-family: "Futura";
   text-transform: uppercase;
+  color: #000000;
   font-size: 16pt;
   margin-top: 150px;
 }
 .checkout {
-  width: 1100px;
+  width: 800px;
   height: 480px;
   justify-content: center;
 }
 .ordersummary {
-  width: 1100px;
+  width: 800px;
   height: 340px;
   justify-content: center;
-}
-.linkrecipe {
-  float: right;
-  margin-right: 5px;
-  font-size: 12pt;
-  font-weight: bold;
 }
 .producttext {
   color: #000000;
@@ -164,12 +113,9 @@ header {
 section {
   background-color: #fdf8ed;
 }
-.listcolumns {
-  column-count: 2;
-}
 .text {
   color: #000000;
-  font-size: 32pt;
+  font-size: 30pt;
   font-weight: bolder;
   text-align: center;
   margin-top: 5px;
@@ -181,21 +127,32 @@ section {
   margin-top: 20px;
   margin-left: 35px;
 }
-#fullname {
+.text3 {
+  color: #000000;
+  font-size: 14pt;
   margin-top: 20px;
   margin-left: 35px;
+  font-weight: lighter;
 }
-#lastname {
-  margin-top: 20px;
-  margin-left: 35px;
+#boxtext {
+  width: 300px;
+  height: 30px;
 }
-#email {
+
+.personalinformation {
+  margin-left: 37px;
   margin-top: 20px;
-  margin-left: 35px;
+  margin-bottom: 5px;
+  font-size: smaller;
 }
-#number {
+.personalinformation2 {
+  margin-left: 453px;
   margin-top: 20px;
-  margin-left: 35px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+.pi2 {
+  margin-top: -324px;
 }
 .columns-fields {
   column-count: 2;
