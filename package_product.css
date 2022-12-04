@@ -39,6 +39,9 @@ header {
  position: fixed;
  width: 100%;
 }
+li {
+  list-style: none;
+}
 .navbar{
   min-height: 70px;
   display: flex;
@@ -48,7 +51,6 @@ header {
   text-transform: uppercase;
   font-family: "Futura-CondensedMedium";
   font-size: 18pt;
-  list-style: none;
   }
 .nav-menu{
 display: flex;
