@@ -4,6 +4,18 @@ body {
   margin: auto;
   color: #fdf8ed;
 }
+.p {
+  font-family: Arial;
+  font-size: 16pt;
+  margin-left: 35px;
+}
+.p1 {
+  font-family: Arial;
+  font-size: 16pt;
+  margin-left: 35px;
+  font-weight: bold;
+  margin-top: 16px;
+}
 a:link {
   color: #c2d7b0;
   text-decoration: none;
@@ -88,7 +100,6 @@ header {
   gap: 30px;
   max-width: 700px;
   font-family: "Futura";
-  text-transform: uppercase;
   color: #000000;
   font-size: 16pt;
   margin-top: 150px;
