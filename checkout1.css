@@ -157,6 +157,18 @@ section {
 .columns-fields {
   column-count: 2;
 }
+.nextstep {
+  width: 160px;
+  height: 80px;
+  background-color: #c2d7b0;
+  font-size: 16pt;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 585px;
+  margin-top: -80px;
+  color: #fdf8ed;
+  padding-top: 11px;
+}
 @media screen and (max-width: 1230px) {
   .recipestartpage {
     max-width: 800px;
