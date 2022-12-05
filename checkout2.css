@@ -189,6 +189,28 @@ section {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+.thursday {
+  width: 160px;
+  height: 35px;
+  background-color: #c2d7b0;
+  font-size: 13pt;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 35px;
+  padding-top: 7px;
+}
+.nextstep {
+  width: 155px;
+  height: 80px;
+  background-color: #c2d7b0;
+  font-size: 17pt;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 585px;
+  margin-top: -80px;
+  color: #fdf8ed;
+  padding-top: 11px;
+}
 @media screen and (max-width: 1230px) {
   .recipestartpage {
     max-width: 800px;
