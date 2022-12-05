@@ -1,0 +1,185 @@
+body {
+  font-family: "Futura";
+  background-color: #c2d7b0;
+  margin: auto;
+  color: #fdf8ed;
+}
+a:link {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c2d7b0;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #c2d7b0;
+  text-decoration: none;
+}
+.clockicon {
+  max-width: 11pt;
+}
+
+.contentgrid {
+  grid-area: contentgrid;
+  color: #000000;
+  font-size: 8pt;
+  max-width: 380px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+header {
+  background-color: #fdf8ed;
+  font-family: "Futura-CondensedMedium";
+  /* https://careerkarma.com/blog/css-all-caps/ Used this link to get all letters in uppercase. /CÖ*/
+  text-transform: uppercase;
+  font-size: 24pt;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+.header {
+  display: grid;
+  grid-template-columns: 326px 0.5fr 1fr 1fr 1fr 1fr 0.5fr 60px;
+  grid-template-rows: 100px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "logotype space packages recipes aboutus contact space basket";
+}
+.logotype_header {
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.linkheader {
+  margin-top: 41px;
+}
+.basketheader {
+  margin-top: 36px;
+  max-height: 60px;
+  margin-right: 10px;
+}
+.recipetext {
+  font-family: "Futura";
+  text-transform: uppercase;
+  font-size: 28pt;
+  text-align: center;
+}
+.subtext {
+  font-family: "Futura-CondensedMedium";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.recipegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+  justify-content: center;
+  margin: auto;
+  gap: 30px;
+  max-width: 700px;
+  font-family: "Futura";
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 16pt;
+  margin-top: 150px;
+}
+.checkout {
+  width: 800px;
+  height: 480px;
+  justify-content: center;
+}
+.ordersummary {
+  width: 800px;
+  height: 340px;
+  justify-content: center;
+}
+.producttext {
+  color: #000000;
+  font-size: 8pt;
+  max-width: 300px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+section {
+  background-color: #fdf8ed;
+}
+.text {
+  color: #000000;
+  font-size: 30pt;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 5px;
+}
+.text2 {
+  color: #000000;
+  font-size: 24pt;
+  font-family: "Futura-CondensedMedium";
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.text3 {
+  color: #000000;
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-left: 35px;
+  font-weight: lighter;
+}
+#boxtext {
+  width: 300px;
+  height: 30px;
+}
+
+.personalinformation {
+  margin-left: 37px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+.personalinformation2 {
+  margin-left: 453px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+.pi2 {
+  margin-top: -324px;
+}
+.columns-fields {
+  column-count: 2;
+}
+@media screen and (max-width: 1230px) {
+  .recipestartpage {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 18pt;
+  }
+  .linkheader {
+    margin-top: 46px;
+  }
+}
+@media screen and (max-width: 834px) {
+  header {
+    font-size: 12pt;
+  }
+  .linkheader {
+    margin-top: 56px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .recipestartpage {
+    max-width: 300px;
+  }
+}

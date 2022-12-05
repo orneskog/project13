@@ -9,53 +9,80 @@
     <title>Brunchly Recipe Overview</title>
   </head>
   <body>
-    <header class="header">
-      <div><a href="index.html"><img src="images/brunchly_logotype_rgb.svg" alt="Image of Brunchly's Logotype" class="logotype_header"/></a></div>
-      <div class="linkheader"> </div>
-      <div class="linkheader"><a href="package_overview.html">Packages</a></div>
-      <div class="linkheader"><a href="recipe_overview.html">Recipes</a></div>
-      <div class="linkheader"><a href="aboutus.html">About Us</a></div>
-      <div class="linkheader"><a href="contact.html">Contact</a></div>
-      <div class="linkheader"> </div>
-      <div class="linkheaderbasket"><a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a></div>
+    <header>
+      <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
+      <nav class="navbar">
+          <a href="index.html"><img src="images/brunchly_logotype_rgb.svg" class="nav-branding"/></a> 
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="package_overview.html" class="nav-link">Packages</a>
+              </li>
+              <li class="nav-item">
+                  <a href="recipe_overview.html" class="nav-link">Recipes</a>
+              </li>
+              <li class="nav-item">
+                  <a href="aboutus.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
   </header>
     <br />
     <main><span class="recipestartpage">
-        <div><h4>Drinks</h4><section>
-            <img src="images/smoothie_recipes_sq.jpg" alt="image on blueberry smoothie" class="smoothie"/>
+          <div><h4>Drinks</h4><section>
+            <img src="images/smoothie_recipes_sq.jpg" alt="image on a blueberry smoothie" class="recipe"/>
             <h5>Blueberry & apple smoothie</h5>
-            <h6><a href="recipe_product_blueberry_smoothie.html">SEE RECIPE</a></h6>
-            <img src="images/mimosa_recipes_sq.jpg" alt="image on mimosa" class="mimosa"/>
+            <h6><a href="recipe_product_blueberry_smoothie.html">SEE RECIPE</a></h6><br/>
+            <img src="images/mimosa_recipes_sq.jpg" alt="image on a mimosa" class="recipe"/>
             <h5>Orange juice mimosas</h5>
-            <h6><a href="">SEE RECIPE</a></h6>
-            <img src="images/coco_recipes_sq.jpg" alt="image on coco milkshake" class="coco"/>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/coco_recipes_sq.jpg" alt="image on a cococonut and banana milkshake" class="recipe"/>
             <h5>Coco banana milkshake</h5>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/icedcoffee_recipes_sq.jpg" alt="image on a ice coffee" class="recipe"/>
+            <h5>Sweet Vanilla Ice Coffee</h5>
             <h6><a href="">SEE RECIPE</a></h6>
         </section></div>
-        <div><h4>Savory</h4><section>
-            <img src="images/avocadotoast_recipes_sq.jpg" alt="image on avokado toast" class="avocado"/>
+          <div><h4>Savory</h4><section>
+            <img src="images/avocadotoast_recipes_sq.jpg" alt="image on an avocado toast" class="recipe"/>
             <h5>Avocado toast with eggs</h5>
-            <h6><a href="recipe_product_avocado_toast.html">SEE RECIPE</a></h6>
-            <img src="images/salmon_recipes_sq.jpg" alt="image on salmon bagel" class="salmon"/>
+            <h6><a href="recipe_product_avocado_toast.html">SEE RECIPE</a></h6><br/>
+            <img src="images/salmon_recipes_sq.jpg" alt="image on a salmon bagel" class="recipe"/>
             <h5>Cream cheese & salmon bagel</h5>
-            <h6><a href="">SEE RECIPE</a></h6>
-            <img src="images/egg_recipes_sq.jpg" alt="image on omelette" class="egg"/>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/egg_recipes_sq.jpg" alt="image on an omelette" class="recipe"/>
             <h5>Cheese omelette with peppers</h5>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/bananabread_recipes_sq.jpg" alt="image on banana bread" class="recipe"/>
+            <h5>Banana Bread With Walnuts and Butter</h5>
             <h6><a href="">SEE RECIPE</a></h6>
-            </section></div>
-            <div><h4>Sweet</h4><section>
-                <img src="images/acaibowl_recipes_sq.jpg" alt="image on avokado acaibowl" class="acaibowl"/>
+        </section></div>
+          <div><h4>Sweet</h4><section>
+                <img src="images/acaibowl_recipes_sq.jpg" alt="image on avokado acaibowl" class="recipe"/>
                 <h5>Acaíbowl with coconut</h5>
-                <h6><a href="recipe_product_acaibowl_coconut.html">SEE RECIPE</a></h6>
-            <img src="images/swedishwaffles_sq.jpg" alt="image on swe waffles" class="swewaffles"/>
+                <h6><a href="recipe_product_acaibowl_coconut.html">SEE RECIPE</a></h6><br/>
+            <img src="images/swedishwaffles_sq.jpg" alt="image on swe waffles" class="recipe"/>
             <h5>Swedish waffles with rasberries</h5>
-            <h6><a href="">SEE RECIPE</a></h6>
-            <img src="images/pancaces_recipes.jpg" alt="image on american pancaces" class="pancaces"/>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/pancaces_recipes.jpg" alt="image on american pancakes" class="recipe"/>
             <h5>American maple pancaces</h5>
+            <h6><a href="">SEE RECIPE</a></h6><br/>
+            <img src="images/waffles_recipes_sq.jpg" alt="image on beetroot waffles" class="recipe"/>
+            <h5>Beetroot waffles with mango sherbet</h5>
             <h6><a href="">SEE RECIPE</a></h6>
-                </section></div>
+        </section></div>
     </span>
-      </div>
+   </div>
     </main>
   </body>
 </html>
