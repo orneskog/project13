@@ -38,49 +38,62 @@
       </nav>
   </header>
     <br/>
-    <main class="conteiner">
-        <p class="headline" id="couple-package">Couple package</p>
-      <img src="images/couple package.jpg" class="img" id="couple" />
-      <div class="text" id="infotext-packages">
-        <p>
-          The couple package includes three dishes. You get to choose one drink,<br/>
-          one savory and one sweet dish among our recipes. We will then send you<br/>
-          a package with the chosen recipes and the ingredients to make the<br/>
-          dishes at home.
-        </p>
+    <main><span class="conteiner-package">
+
+      <div><h4>Couple package</h4><section>
+
+        <img class="img" id="couple" src="images/couple package.jpg" alt="image of a couple coking food" />
+
+        <p>The couple package includes three dishes. You get to choose one drink,
+          one savory and one sweet dish among our recipes. We will then send you
+          a package with the chosen recipes and the ingredients to make the
+          dishes at home.</p>
+
+        </section></div>
+
+      <div><h4>Choose your recipes</h4><section>
+
+       <div id="dropdown-menus">
+        
+        <label class="label" for="Drinks">Drinks:</label>
+        <br/>
+       <select name="Drinks" id="dropdown-drinks">
+          <option></option>
+          <option class="dropdown" value="Blueberry & apple smoothies">Blueberry & apple smoothies</option>
+          <option value="Orang juice mimosas">Orang juice mimosas</option>
+          <option value="Coco banana milkshake">Coco banana milkshake</option>
+      </select>
+
+      <br/>
+
+      <label class="label" for="Savoury">Savoury:</label>
+      <br/>
+      <select name="Savoury" id="dropdown-savoury">
+          <option></option>
+          <option value="Avocado toast with eggs">Avocado toast with eggs</option>
+          <option value="Cream cheese & salamon bagel">Cream cheese & salamon bagel</option>
+          <option value="Cheese omelette with peppers">Cheese omelette with peppers</option>
+      </select>
+
+      <br/>
+
+      <label class="label" for="sweer">Sweet:</label>
+      <br/>
+      <select name="Sweet" id="dropdown-Sweet">
+          <option></option>
+          <option value="Açaíbowl with coconut">Açaíbowl with coconut</option>
+          <option value="Swedish waffles with raspberry">Swedish waffles with raspberry</option>
+          <option value="American maple panckes">American maple panckes</option>
+        </select>
       </div>
-      <div class="box" id="box-package"></div>
-      <div class="headline" id="choose-recipes"><p>Choose your recipes</p></div>
-      <div class="box" id="box-choose-recipe">
-      
-        <button class="button" id="order-button">Add to basket</button>
-      </div>
-    </main>
+
+        <p class="text" id="amount">300 SEK</p>
+        <button class="btn" >Order</button>
+
+
+    </section></div>
+</span>
+</div>
+</main>
   </body>
 </html>
-
-
-<label for="Drinks">Drinks:</label>
-<select name="Drinks" id="dropdown-drinks">
-    <option></option>
-    <option value="Blueberry & apple smoothies">Blueberry & apple smoothies</option>
-    <option value="Orang juice mimosas">Orang juice mimosas</option>
-    <option value="Coco banana milkshake">Coco banana milkshake</option>
-</select>
-
-<label for="Savoury">Savoury:</label>
-<select name="Savoury" id="dropdown-savoury">
-    <option></option>
-    <option value="Avocado toast with eggs">Avocado toast with eggs</option>
-    <option value="Cream cheese & salamon bagel">Cream cheese & salamon bagel</option>
-    <option value="Cheese omelette with peppers">Cheese omelette with peppers</option>
-</select>
-
-
-<label for="sweer">Sweet:</label>
-<select name="Sweet" id="dropdown-Sweet">
-    <option></option>
-    <option value="Açaíbowl with coconut">Açaíbowl with coconut</option>
-    <option value="Swedish waffles with raspberry">Swedish waffles with raspberry</option>
-    <option value="American maple panckes">American maple panckes</option>
-</select>

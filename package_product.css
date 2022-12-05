@@ -24,9 +24,9 @@ a:active {
 
 body {
   font-family: "Futura";
-  background-color: #FDF8ED;
+  background-color: #C2D7B0;
   margin: auto;
-  color: #C2D7B0;
+  color: #FDF8ED;
 }
 /* The following code is the header */
 * {
@@ -39,9 +39,6 @@ header {
  position: fixed;
  width: 100%;
 }
-li {
-  list-style: none;
-}
 .navbar{
   min-height: 70px;
   display: flex;
@@ -51,6 +48,7 @@ li {
   text-transform: uppercase;
   font-family: "Futura-CondensedMedium";
   font-size: 18pt;
+  list-style: none;
   }
 .nav-menu{
 display: flex;
@@ -82,107 +80,114 @@ background-color: #FDF8ED;
 .basketheader {
   height: 30px;
 }
-  .contentcontact {
-    padding-top: 300px;
-  }
-  .contentaboutus {
-    padding-top: 200px;
-  }
-  .maintext {
-    font-family: "Futura";
-    text-transform: uppercase;
-    font-size: 24pt;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    max-width: 600px;
-    margin: auto;
-  }  
-  .maintextbigger {
-    font-family: "Futura";
-    text-transform: uppercase;
-    font-size: 54pt;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    max-width: 600px;
-    margin: auto;
-  } 
-  .subtext {
-    font-family: "Futura";    
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14pt;
-    padding: 10px;
-    padding-top: 30px;
-    max-width: 600px;
-    margin: auto;
-  }
-.conteiner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
-    grid-auto-flow: row;
-    margin-left: 75px;
-    margin-top: 150px;
-    padding-bottom: 45px;
-    max-width: 1244px;
+.conteiner-package {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  justify-content: center;
+  gap: 50px;
+  max-width: 960px;
+  margin: auto;
+  font-family: "Futura";
+  text-transform: uppercase;
+  font-size: 16pt;
+  padding-bottom: 30px;
+  margin-top: 100px;
 }
-#box-package {
-    background-color: #FDF8ED;
-    width: 900px;
-    height: 500px;
-}
-
-#box-choose-recipe {
-    background-color: #FDF8ED;
-    width: 400px;
-    height: 500px;
-}
-
 .img {
-    position: absolute;
-    width: 700px;
-    height: 200px;
-    border-radius: 10px;
-    margin-top: 55px;
-    margin-left: 100px;
+  width: 585px;
+  height: 250px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.linkrecipestartpage {
+  float: right;
+  margin-right: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+section {
+  background-color: #fdf8ed;
+  padding: 10px;
+}
+h4 {
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #FDF8ED;
+}
+h5 {
+  margin-top: -2px;
+  float: right;
+  font-size: 16px;
+  max-width: 145px;
+  color: #000000;
+}
+h6 {
+  font-weight: lighter;
+  font-size: 10pt;
+  color: #000000;
 }
 
-#infotext-packages {
-    position: absolute;
-    color: black;
-    margin-top: 300px;
-    margin-left: 100px;
+p{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-#couple-package {
-    position: absolute;
-    color: #FDF8ED;
-    margin-top: -30px;
+.label {
+  color: #C2D7B0;
 }
 
-#choose-recipes {
-    position: absolute;
-    color: #FDF8ED;
-    margin-top: -45px;
-    padding-left: 967px;
-}
-
-
-.button {
+.btn {
   background-color: #C2D7B0;
   color: #FDF8ED;
   border: #C2D7B0;
-  width: 150px;
+  width: 285px;
   height: 40px;
-  margin-top: 430px;
-  margin-left: 125px;
 }
 
-@media(max-width:1000px){
+#amount {
+margin-bottom: 5px;
+}
+
+select {
+  height: 30px;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+#dropdown-Sweet {
+  margin-bottom: 75px;
+}
+
+
+
+@media(max-width: 833px){
   .navbar {
     font-size: 14pt;
+  }
+  .conteiner-package {
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+    max-width: 810px;
+    font-size: 14pt;
+    padding: 0 10px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+  }
+  .img {
+    max-width: 585px;
+  }
+
+  h5 {
+    font-size: 11pt;
+    max-width: 120px;
+  }
+
+  h6 {
+    margin-left: 210px;
+    margin-top: -21px;
   }
 }
 @media(max-width:833px){
@@ -224,4 +229,41 @@ background-color: #FDF8ED;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
   
+    .recipestartpage {
+      grid-template-columns: repeat(auto-fit, 300px);
+      gap: 20px;
+      max-width: 300px;
+      font-size: 14pt;
+      padding: 0 10px;
+      padding-bottom: 30px;
+      margin-top: 100px;
+    }
+    .img {
+      max-width: 230px;
+      max-height: 100px;
+      margin-bottom: 0px;
+      border-radius: 0px;
+    }
+    h5 {
+      font-size: 12pt;
+      max-width: 150px;
+    }
+    h6 {
+      margin-left: 210px;
+      margin-top: -21px;
+    }
+
+    .btn {
+      background-color: #C2D7B0;
+      color: #FDF8ED;
+      border: #C2D7B0;
+      max-width: 230px;
+      max-height: 40px;
+    }
+
+    #dropdown-Sweet {
+      margin-bottom: 50px;
+    }
+    
   }
+
