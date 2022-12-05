@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="checkout1.css">
+    <link rel="stylesheet" href="checkout3.css">
     <script src="main.js" defer></script>
     <title>Brunchly Checkout 1</title>
 </head>
@@ -21,40 +21,49 @@
     </header> 
     <br/>
     <main>
-        <span class="recipegrid">
-            <section class="checkout">
-            <div class="text">Checkout</div>
-            <div class="text2">Shipping</div>
-            <p>Shipping Adress</p>
-            <p>Andrea Andersson</p>
-            <p>Adelgatan 52</p>
-            <p>55768 Jönköping</p>
-            <p>Sweden</p>
-            <div class="text2">When do you want your order to be delivered?</div>
-            <div class="text2">- Budbee Home Delivery</div>
-            <p>Which date?</p>
-            <p>Which time?</p>
-        </div>
-
-              <!-- https://www.w3schools.com/html/html_forms.asp We have used this page for help with the text fields.-->
-            </section>
-            <section class="ordersummary">
-            <div class="text2">Order Summary</div>
-            <div class="text3">Items:
-            </div>
-            <div class="text3">Order Number:
-            </div>
-            <div class="text3">Package:
-            </div>
-            <div class="text3">Shipping:
-            </div>
-            <div class="text3">Total to pay:
-            </div>
-            <form class="personalinformation">
-            </section>
-                <div class="checkoutgrid">
-                    <div class="contentgrid">
-                  </div>
+        <main>
+            <span class="recipegrid">
+                <section class="checkout">
+                <div class="text">CHECKOUT</div>
+                <div class="text2">SELECT PAYMENT METHOD</div>
+                <form class="personalinformation">
+                    <label for="cardnumber">Card Number*</label><br>
+                    <input type="text" id="boxtext" name="cardnumber"><br>
+                </form>
+                    <form class="personalinformation">
+                    <label for="namecard">Name on card*</label><br>
+                    <input type="text" id="boxtext" name="namecard">
+                </form>
+                <form class="personalinformation">
+                    <label for="expirydate">Expiry Date*</label><br>
+                    <input type="text" id="boxtext" name="expirydate"><br>
+                </form>
+                <form class="personalinformation">
+                    <label for="securitycode">Security code*</label><br>
+                    <input type="text" id="boxtext" name="securitycode">
+                </form>
+            
+    
+                  <!-- https://www.w3schools.com/html/html_forms.asp We have used this page for help with the text fields.-->
+                </section>
+                <section class="ordersummary">
+                <div class="text2">Order Summary</div>
+                <div class="text3">Items:
+                </div>
+                <div class="text3">Order Number:
+                </div>
+                <div class="text3">Package:
+                </div>
+                <div class="text3">Shipping:
+                </div>
+                <div class="text3">Total to pay:
+                </div>
+                <form class="personalinformation">
+                    <div class="nextstep"><a href="checkout3.html"></a>Continue to Next Step</a></div>
+                </section>
+                    <div class="checkoutgrid">
+                        <div class="contentgrid">
+                      </div>
     <header>
         <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
         <nav class="navbar">
