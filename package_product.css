@@ -229,6 +229,8 @@ select {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
   
+    /* ändra kanske till conteiner-package men då måste fixa weidth och heighet*/
+    
     .recipestartpage {
       grid-template-columns: repeat(auto-fit, 300px);
       gap: 20px;
