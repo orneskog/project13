@@ -23,7 +23,7 @@ a:active {
 }
 
 body {
-  font-family: "Futura";
+  font-family: 'Futura PT';    
   background-color: #C2D7B0;
   margin: auto;
   color: #FDF8ED;
@@ -87,16 +87,14 @@ background-color: #FDF8ED;
   gap: 30px;
   max-width: 1220px;
   margin: auto;
-  font-family: "Futura";
+  font-family: 'Futura PT';    
   text-transform: uppercase;
   font-size: 16pt;
   padding: 20px;
   padding-bottom: 30px;
   margin-top: 100px;
 }
-.basketheader {
-  height: 30px;
-}
+
   .contentcontact {
     padding-top: 300px;
   }
@@ -104,9 +102,9 @@ background-color: #FDF8ED;
     padding-top: 200px;
   }
   .maintext {
-    font-family: "Futura";
+    font-family: 'Futura PT';    
     text-transform: uppercase;
-    font-size: 24pt;
+    font-size: 30pt;
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -114,7 +112,7 @@ background-color: #FDF8ED;
     margin: auto;
   }  
   .maintextbigger {
-    font-family: "Futura";
+    font-family: 'Futura PT';    
     text-transform: uppercase;
     font-size: 54pt;
     text-align: center;
@@ -124,10 +122,10 @@ background-color: #FDF8ED;
     margin: auto;
   } 
   .subtext {
-    font-family: "Futura";    
+    font-family: 'Futura PT';    
     text-transform: uppercase;
     text-align: center;
-    font-size: 14pt;
+    font-size: 18pt;
     padding: 10px;
     padding-top: 10px;
     max-width: 600px;
@@ -182,28 +180,28 @@ background-color: #FDF8ED;
         padding-top: 130px;
       }
       .contentaboutus {
-        padding-top: 120px;
+        padding: 120px 20px;
       }
       .maintext {
-        font-family: "Futura";
+        font-family: 'Futura PT';    
         text-transform: uppercase;
-        font-size: 18pt;
+        font-size: 20pt;
         text-align: center;
         font-weight: bold;
-        padding: 10px;
+        padding: 20px;
         margin: auto;
       }  
       .maintextbigger {
-        font-family: "Futura";
+        font-family: 'Futura PT';    
         text-transform: uppercase;
         font-size: 32pt;
         text-align: center;
         font-weight: bold;
-        padding: 0px;
+        padding: 10px;
         margin: auto;
       } 
       .subtext {
-        font-size: 12pt;
+        font-size: 14pt;
         margin: auto;
         padding: 25px 0;
       }
