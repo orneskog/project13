@@ -80,18 +80,18 @@ background-color: #FDF8ED;
 .basketheader {
   height: 30px;
 }
-  h1 {
-    font-weight: lighter;
-    font-size: 24pt;
-    color: #000000;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 300px;
-    margin: auto;
-    justify-content: center;
-  }
+h1 {
+  font-weight: lighter;
+  font-size: 24pt;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 400px;
+  margin: auto;
+  justify-content: center;
+}
   h4 {
     font-weight: lighter;
     font-size: 18pt;
@@ -101,10 +101,30 @@ background-color: #FDF8ED;
     text-transform: uppercase;
     text-align: center;
   }
-
+.p1 {
+  color: #000000;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.p2 {
+  color: #000000;
+  font-size: 16pt;
+}
+.btn {
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  border: #C2D7B0;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 12pt;
+  font-family: "Futura";
+}
 .headline_text {
   margin: auto;
-  margin-top: 120px;
   justify-content: center;
   width: 400px;
   background-color: #FDF8ED;
@@ -116,13 +136,17 @@ background-color: #FDF8ED;
 .content {
   margin: auto;
   justify-content: center;
-  width: 400px;
-  height: 400px;
+  margin-top: 120px;
+  width: 800px;
   background-color: #FDF8ED;
   color: #C2D7B0;
   text-align: center;
 }
-.iconcontent {
+.iconcontentbasket {
+  max-width: 100px;
+  margin-bottom: 30px;
+}
+.iconcontentconfirmed {
   max-width: 100px;
 }
 @media(max-width:1000px){
@@ -146,7 +170,6 @@ background-color: #FDF8ED;
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);  
   }
-
   .nav-menu{
     position: fixed;
     left: -100%;
@@ -168,5 +191,28 @@ background-color: #FDF8ED;
     left: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
-  
+   
+  .content {
+    margin-top: 120px;
+    width: 300px;
+  }
+  .p1 {
+    font-size: 16pt;
+  }
+  .p2{
+    font-size: 12pt;
+  }
+  .headline_text {
+    max-width: 300px;
+
+  }
+  h1 {
+    font-size: 12pt;
+  }
+  h4 {
+    font-size: 14pt;
+  }
+  .iconcontentbasket {
+    max-width: 70px;
+  }
   }

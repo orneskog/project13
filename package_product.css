@@ -142,11 +142,13 @@ p{
   background-color: #C2D7B0;
   color: #FDF8ED;
   border: #C2D7B0;
-  width: 280px;
+  width: 200px;
   height: 40px;
   cursor: pointer;
 }
-
+button {
+  margin-top: 20px;
+}
 #amount {
 margin-bottom: 5px;
 }
