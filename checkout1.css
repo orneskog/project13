@@ -33,11 +33,11 @@ a:active {
   box-sizing: border-box;
 }
 header {
- background-color: #FDF8ED;
- position: fixed;
- width: 100%;
+  background-color: #fdf8ed;
+  position: fixed;
+  width: 100%;
 }
-.navbar{
+.navbar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -47,33 +47,33 @@ header {
   font-family: "Futura-CondensedMedium";
   font-size: 18pt;
   list-style: none;
-  }
-.nav-menu{
-display: flex;
-justify-content:center;
-align-items: center;
-gap: 60px;
 }
-.nav-branding{
-font-size: 30pt;
-padding-right: 20px;
-width: 300px;
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
-.nav-link{
-transition: 0.7s ease;
+.nav-branding {
+  font-size: 30pt;
+  padding-right: 20px;
+  width: 300px;
 }
-.hamburger{
-display: none;
-cursor: pointer;
+.nav-link {
+  transition: 0.7s ease;
 }
-.bar{
-display: block;
-width: 25px;
-height: 3px;
-margin: 5px auto;
--webkit-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-background-color: #FDF8ED;
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fdf8ed;
 }
 .basketheader {
   height: 30px;
@@ -115,7 +115,8 @@ background-color: #FDF8ED;
   margin-top: 150px;
 }
 .checkout {
-  width: 500px;
+  width: 800px;
+  height: 480px;
   justify-content: center;
 }
 .ordersummary {
@@ -172,7 +173,6 @@ section {
 .columns-fields {
   column-count: 2;
 }
-<<<<<<< Updated upstream
 .nextstep {
   width: 1px;
   height: 80px;
@@ -184,69 +184,58 @@ section {
   margin-top: -80px;
   color: #fdf8ed;
   padding-top: 11px;
-=======
-.button {
-  background-color: #C2D7B0;
-  width: 100px;
-  height: 50px;
-  font-size: 7pt;
-  padding-top: 11px;
-  margin: 20px 38px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-left: 277.5px;
->>>>>>> Stashed changes
 }
 @media screen and (max-width: 1230px) {
   .recipestartpage {
     max-width: 800px;
   }
 }
-@media(max-width:1000px){
+@media (max-width: 1000px) {
   .navbar {
     font-size: 14pt;
   }
 }
 @media screen and (max-width: 833px) {
-  @media(max-width:833px){
+  @media (max-width: 833px) {
     .bar {
-      background-color: #C2D7B0;
+      background-color: #c2d7b0;
     }
-    .hamburger{
+    .hamburger {
       display: block;
     }
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar:nth-child(2) {
       opacity: 0;
     }
-    .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
     }
-  
-    .nav-menu{
+
+    .nav-menu {
       position: fixed;
       left: -100%;
       top: 70px;
       gap: 0;
       flex-direction: column;
-      background-color: #FDF8ED;
+      background-color: #fdf8ed;
       width: 100%;
       text-align: center;
       transition: 0.3s;
     }
-    .nav-branding{
+    .nav-branding {
       width: 250px;
     }
-    .nav-item{
+    .nav-item {
       margin: 16px 0;
     }
-    .nav-menu.active{
+    .nav-menu.active {
       left: 0;
-      box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;}
-      /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
-  }  
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;
+    }
+    /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+  }
 }
 @media screen and (max-width: 590px) {
   .recipestartpage {
