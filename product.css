@@ -46,8 +46,8 @@ header {
   align-items: center;
   padding: 0 15px;
   text-transform: uppercase;
-  font-family: "Futura-CondensedMedium";
-  font-size: 18pt;
+  font-family: 'Futura Condensed PT', sans-serif;     
+  font-size: 20pt;
   list-style: none;
   }
 .nav-menu{
@@ -254,7 +254,7 @@ section {
 }
 @media(max-width:1000px){
   .navbar {
-    font-size: 14pt;
+    font-size: 16pt;
   }
 }
 @media(max-width:833px){
