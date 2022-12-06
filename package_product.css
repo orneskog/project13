@@ -142,7 +142,7 @@ p{
   background-color: #C2D7B0;
   color: #FDF8ED;
   border: #C2D7B0;
-  width: 285px;
+  width: 280px;
   height: 40px;
   cursor: pointer;
 }
@@ -168,18 +168,14 @@ select {
     font-size: 14pt;
   }
   .conteiner-package {
-    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-columns: repeat(auto-fit, 300px);
     gap: 20px;
-    max-width: 810px;
+    max-width: 0px;
     font-size: 14pt;
     padding: 0 10px;
     padding-bottom: 30px;
     margin-top: 100px;
   }
-  .img {
-    max-width: 585px;
-  }
-
   h4 {
 
     max-width: 170px;
@@ -243,7 +239,7 @@ select {
       margin-top: 100px;
     }
     .img {
-      max-width: 230px;
+      max-width: 280px;
       margin-bottom: 0px;
       border-radius: 10px;
     }
@@ -264,7 +260,6 @@ select {
       background-color: #C2D7B0;
       color: #FDF8ED;
       border: #C2D7B0;
-      max-width: 230px;
       max-height: 40px;
     }
 
