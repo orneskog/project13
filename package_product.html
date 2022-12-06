@@ -42,10 +42,11 @@
 
       <div><h4>Couple package</h4><section>
 
-        <img class="img" id="couple" src="images/couple package.jpg" alt="image of a couple coking food" />
+        <img class="img" id="couple" src="images/couple package.jpg" alt="image of a couple cooking food" />
 
         <p>The couple package includes three dishes. You get to choose one drink,
-          one savory and one sweet dish among our recipes. We will then send you
+          one savory and one sweet dish among our recipes. <br/><br/>
+          We will then send you
           a package with the chosen recipes and the ingredients to make the
           dishes at home.</p>
 
@@ -58,10 +59,10 @@
         <label class="label" for="Drinks">Drinks:</label>
         <br/>
        <select name="Drinks" id="dropdown-drinks">
-          <option></option>
-          <option class="dropdown" value="Blueberry & apple smoothies">Blueberry & apple smoothies</option>
-          <option value="Orang juice mimosas">Orang juice mimosas</option>
-          <option value="Coco banana milkshake">Coco banana milkshake</option>
+          <option class="dropdown" value="Blueberry & apple smoothies">Blueberry & Apple Smoothies</option>
+          <option value="Orang juice mimosas">Orange Juice Mimosas</option>
+          <option value="Coco banana milkshake">Coco Banana Milkshake</option>
+          <option value="Ice coffee">Sweet Vanilla Ice Coffee</option>
       </select>
 
       <br/>
@@ -69,26 +70,27 @@
       <label class="label" for="Savoury">Savoury:</label>
       <br/>
       <select name="Savoury" id="dropdown-savoury">
-          <option></option>
-          <option value="Avocado toast with eggs">Avocado toast with eggs</option>
-          <option value="Cream cheese & salamon bagel">Cream cheese & salamon bagel</option>
-          <option value="Cheese omelette with peppers">Cheese omelette with peppers</option>
-      </select>
+          <option value="Avocado Toast With Eggs">Avocado Toast With Eggs</option>
+          <option value="Cream cheese & salamon bagel">Cream Cheese & Salmon Bagels</option>
+          <option value="Cheese omelette with peppers">Cheese Omelette With Pepers</option>
+          <option value="Banana Bread With Walnuts">Banana Bread With Walnuts And Butter</option>
+        </select>
 
       <br/>
 
-      <label class="label" for="sweer">Sweet:</label>
+      <label class="label" for="sweet">Sweet:</label>
       <br/>
       <select name="Sweet" id="dropdown-Sweet">
-          <option></option>
-          <option value="Açaíbowl with coconut">Açaíbowl with coconut</option>
-          <option value="Swedish waffles with raspberry">Swedish waffles with raspberry</option>
-          <option value="American maple panckes">American maple panckes</option>
+          <option value="Açaíbowl with coconut">Açaíbowl With Coconut</option>
+          <option value="Swedish waffles with raspberry">Swedish Waffles With Raspberries</option>
+          <option value="American maple panckes">American Maple Pancakes</option>
+          <option value="Beetroot waffles">Beetroot Waffles With Mango Sherbet</option>
         </select>
       </div>
 
         <p class="text" id="amount">300 SEK</p>
-        <button class="btn" >Order</button>
+        <!-- Used this link to get the button to head to a new page: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html //CÖ-->
+        <button class="btn" onclick="window.location.href='checkout1.html';">Order</button>
 
 
     </section></div>
