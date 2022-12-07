@@ -44,7 +44,7 @@ header {
   align-items: center;
   padding: 0 15px;
   text-transform: uppercase;
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   font-size: 20pt;
   list-style: none;
 }
@@ -174,8 +174,8 @@ section {
   column-count: 2;
 }
 .nextstep {
-  width: 1px;
-  height: 80px;
+  width: 155px;
+  height: 90px;
   background-color: #c2d7b0;
   font-size: 16pt;
   font-weight: bolder;

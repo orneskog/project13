@@ -49,14 +49,6 @@ a:active {
   max-width: 11pt;
 }
 
-.contentgrid {
-  grid-area: contentgrid;
-  color: #000000;
-  font-size: 8pt;
-  max-width: 380px;
-  font-weight: lighter;
-  margin-left: 10px;
-}
 header {
   background-color: #fdf8ed;
   font-family: "Futura-CondensedMedium";
@@ -103,7 +95,7 @@ header {
   margin-top: 20px;
 }
 .time {
-  margin-left: 520px;
+  margin-left: 558px;
   margin-top: -26px;
 }
 .recipegrid {
@@ -188,6 +180,7 @@ section {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  max-width: 700px;
 }
 .thursday {
   width: 160px;
