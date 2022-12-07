@@ -84,7 +84,7 @@ background-color: #FDF8ED;
   gap: 30px;
   max-width: 1220px;
   margin: auto;
-  font-family: "Futura";
+  font-family: 'Futura PT';     
   text-transform: uppercase;
   font-size: 16pt;
   padding: 20px;
@@ -111,12 +111,13 @@ section {
   height: 386px;
 }
 h4 {
-  font-weight: lighter;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 20pt;
   margin-bottom: 10px;
   color: #fdf8ed;
 }
 h5 {
+  font-size: 16pt;
   margin-top: 15px;
   margin-bottom: 15px;
   color: #000000;
@@ -132,15 +133,14 @@ h5 {
     border-radius: 20px;
   }
   h4 {
-    font-weight: lighter;
-    font-size: 20px;
+    font-size: 18pt;
     margin-bottom: 6px;
     color: #fdf8ed;
   }
   h5 {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 12pt;
+    font-size: 14pt;
   }
   .linkpackage {
     float: right;
@@ -205,14 +205,14 @@ h5 {
       border-radius: 30px;
     }
     h4 {
-      font-weight: lighter;
-      font-size: 24px;
+      font-size: 20pt;
       margin-bottom: 10px;
       color: #fdf8ed;
     }
     h5 {
       margin-top: 15px;
       margin-bottom: 15px;
+      font-size: 16pt;
     }
     .linkpackage {
       float: right;
