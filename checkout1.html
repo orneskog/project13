@@ -52,21 +52,21 @@
             <div class="text2">Personal information</div>
             <form class="personalinformation">
                 <label for="fullname">First name:</label><br/>
-                <input type="text" id="firstname" placeholder="First Name" name="first"><br/>
+                <input type="text" id="firstname" placeholder="First Name" name="first" style="width: 280px; height: 40px;"><br/>
                 <label for="lastname">Last name:</label><br/>
-                <input type="text" id="lastname" placeholder="Last Name" name="lastname"><br/>
+                <input type="text" id="lastname" placeholder="Last Name" name="lastname"style="width: 280px; height: 40px;"><br/>
                 <label for="email">Email Adress:</label><br/>
-                <input type="email" id="email" placeholder="E-mail" name="email"><br/>
+                <input type="email" id="email" placeholder="E-mail" name="email" style="width: 280px; height: 40px;"><br/>
                 <label for="number">Phone Number:</label><br/>
-                <input type="number" id="phonenumber" placeholder="Phone Number" name="phonenumber"><br/>
+                <input type="number" id="phonenumber" placeholder="Phone Number" name="phonenumber" style="width: 280px; height: 40px;"><br/>
                 <label for="adress">Adress:</label><br/>
-                <input type="text" id="adress" placeholder="Adress" name="adress"><br/>
+                <input type="text" id="adress" placeholder="Adress" name="adress" style="width: 280px; height: 40px;"><br/>
                 <label for="city">City:</label><br/>
-                <input type="text" id="city" placeholder="City" name="city"><br/>
+                <input type="text" id="city" placeholder="City" name="city" style="width: 280px; height: 40px;"><br/>
                 <label for="post">Post Code:</label><br/>
-                <input type="number" id="post" placeholder="Post Code" name="post"><br/>
+                <input type="number" id="post" placeholder="Post Code" name="post" style="width: 280px; height: 40px;"><br/>
                 <label for="country">Country:</label><br/>
-                <input type="text" id="country" placeholder="Country" name="country">
+                <input type="text" id="country" placeholder="Country" name="country" style="width: 280px; height: 40px;">
             </form>
                 </section>
         </div>
@@ -86,38 +86,11 @@
             <div class="text3">Total to pay: 349 sek
             </div>
             <form class="personalinformation">
-                <div class="nextstep"><a href="checkout2.html">Continue to Next Step</a></div>
             </section>
+             <!-- Used this link to get the button to head to a new page: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html //CÖ-->
+             <button class="nextstep" onclick="window.location.href='checkout2.html';">Continue to Next Step</button>
                 <div class="checkoutgrid">
                     <div class="contentgrid">
                   </div>
-    <header>
-        <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
-        <nav class="navbar">
-            <a href="index.html"><img src="images/brunchly_logotype_rgb.svg" class="nav-branding"/></a> 
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="package_overview.html" class="nav-link">Packages</a>
-                </li>
-                <li class="nav-item">
-                    <a href="recipe_overview.html" class="nav-link">Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="aboutus.html" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
 </body>
 </html>

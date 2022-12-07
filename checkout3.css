@@ -1,5 +1,5 @@
 body {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   background-color: #c2d7b0;
   margin: auto;
   color: #fdf8ed;
@@ -57,74 +57,74 @@ a:active {
   font-weight: lighter;
   margin-left: 10px;
 }
-li{
+li {
   list-style: none;
-  }
+}
 /* The following code is the header */
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  header {
-   background-color: #FDF8ED;
-   position: fixed;
-   width: 100%;
-  }
-  .navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-family: 'Futura Condensed PT', sans-serif;     
-    font-size: 20pt;
-    list-style: none;
-    }
-.nav-menu{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #fdf8ed;
+  position: fixed;
+  width: 100%;
+}
+.navbar {
+  min-height: 70px;
   display: flex;
-  justify-content:center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-family: "Futura Condensed PT", sans-serif;
+  font-size: 20pt;
+  list-style: none;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 60px;
 }
-.nav-branding{
+.nav-branding {
   font-size: 30pt;
   padding-right: 20px;
   width: 300px;
 }
-.nav-link{
+.nav-link {
   transition: 0.7s ease;
 }
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
-.bar{
+.bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #FDF8ED;
+  background-color: #fdf8ed;
 }
 .basketheader {
-    height: 30px;
-    display: block;
+  height: 30px;
+  display: block;
 }
 .basketheaderorder {
   height: 41px;
   display: none;
 }
 .recipetext {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   text-transform: uppercase;
   font-size: 28pt;
   text-align: center;
 }
 .subtext {
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -135,7 +135,7 @@ li{
   margin: auto;
   gap: 30px;
   max-width: 700px;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   color: #000000;
   font-size: 16pt;
   margin-top: 150px;
@@ -170,7 +170,7 @@ section {
 .text2 {
   color: #000000;
   font-size: 24pt;
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   margin-top: 20px;
   margin-left: 35px;
 }
@@ -200,17 +200,16 @@ section {
 }
 .nextstep {
   width: 155px;
-  height: 80px;
+  height: 90px;
   background-color: #c2d7b0;
-  font-size: 17pt;
+  font-size: 16pt;
   font-weight: bolder;
   text-align: center;
-  margin-left: 585px;
-  margin-top: -80px;
+  margin-left: 620px;
+  margin-top: -145px;
   color: #fdf8ed;
-  padding-top: 11px;
 }
-@media(max-width:1000px){
+@media (max-width: 1000px) {
   .navbar {
     font-size: 16pt;
   }
@@ -256,9 +255,9 @@ section {
     }
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
   }
-@media screen and (max-width: 590px) {
-  .recipestartpage {
-    max-width: 300px;
+  @media screen and (max-width: 590px) {
+    .recipestartpage {
+      max-width: 300px;
+    }
   }
-}
 }

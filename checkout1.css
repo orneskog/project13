@@ -1,5 +1,5 @@
 body {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   background-color: #c2d7b0;
   margin: auto;
   color: #fdf8ed;
@@ -33,55 +33,55 @@ a:active {
   box-sizing: border-box;
 }
 header {
- background-color: #FDF8ED;
- position: fixed;
- width: 100%;
+  background-color: #fdf8ed;
+  position: fixed;
+  width: 100%;
 }
-.navbar{
+.navbar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
   text-transform: uppercase;
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   font-size: 20pt;
   list-style: none;
-  }
-.nav-menu{
-display: flex;
-justify-content:center;
-align-items: center;
-gap: 60px;
 }
-.nav-branding{
-font-size: 30pt;
-padding-right: 20px;
-width: 300px;
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
-.nav-link{
-transition: 0.7s ease;
+.nav-branding {
+  font-size: 30pt;
+  padding-right: 20px;
+  width: 300px;
 }
-.hamburger{
-display: none;
-cursor: pointer;
+.nav-link {
+  transition: 0.7s ease;
 }
-.bar{
-display: block;
-width: 25px;
-height: 3px;
-margin: 5px auto;
--webkit-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-background-color: #FDF8ED;
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fdf8ed;
 }
 .basketheader {
   height: 30px;
   display: block;
 }
 .basketheaderorder {
-height: 41px;
-display: none;
+  height: 41px;
+  display: none;
 }
 .clockicon {
   max-width: 11pt;
@@ -95,13 +95,13 @@ display: none;
   margin-left: 10px;
 }
 .recipetext {
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   text-transform: uppercase;
   font-size: 28pt;
   text-align: center;
 }
 .subtext {
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -113,7 +113,7 @@ display: none;
   margin: auto;
   gap: 30px;
   max-width: 700px;
-  font-family: 'Futura PT';
+  font-family: "Futura PT";
   text-transform: uppercase;
   color: #000000;
   font-size: 16pt;
@@ -149,7 +149,7 @@ section {
 .text2 {
   color: #000000;
   font-size: 24pt;
-  font-family: 'Futura Condensed PT', sans-serif;     
+  font-family: "Futura Condensed PT", sans-serif;
   margin-top: 20px;
   margin-left: 35px;
 }
@@ -163,6 +163,9 @@ section {
 #boxtext {
   width: 300px;
   height: 30px;
+}
+input {
+  font-size: 14pt;
 }
 
 .personalinformation {
@@ -182,13 +185,14 @@ section {
   width: 155px;
   height: 90px;
   background-color: #c2d7b0;
+  border: #c2d7b0;
   font-size: 16pt;
   font-weight: bolder;
   text-align: center;
-  margin-left: 585px;
-  margin-top: -80px;
+  margin-left: 620px;
+  margin-top: -145px;
   color: #fdf8ed;
-  padding-top: 11px;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
