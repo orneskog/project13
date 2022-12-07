@@ -33,50 +33,55 @@ a:active {
   box-sizing: border-box;
 }
 header {
-  background-color: #fdf8ed;
-  position: fixed;
-  width: 100%;
+ background-color: #FDF8ED;
+ position: fixed;
+ width: 100%;
 }
-.navbar {
+.navbar{
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
   text-transform: uppercase;
-  font-family: "Futura Condensed PT", sans-serif;
+  font-family: 'Futura Condensed PT', sans-serif;     
   font-size: 20pt;
   list-style: none;
+  }
+.nav-menu{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 60px;
 }
-.nav-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
+.nav-branding{
+font-size: 30pt;
+padding-right: 20px;
+width: 300px;
 }
-.nav-branding {
-  font-size: 30pt;
-  padding-right: 20px;
-  width: 300px;
+.nav-link{
+transition: 0.7s ease;
 }
-.nav-link {
-  transition: 0.7s ease;
+.hamburger{
+display: none;
+cursor: pointer;
 }
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fdf8ed;
+.bar{
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: #FDF8ED;
 }
 .basketheader {
   height: 30px;
+  display: block;
+}
+.basketheaderorder {
+height: 41px;
+display: none;
 }
 .clockicon {
   max-width: 11pt;
@@ -185,11 +190,7 @@ section {
   color: #fdf8ed;
   padding-top: 11px;
 }
-@media screen and (max-width: 1230px) {
-  .recipestartpage {
-    max-width: 800px;
-  }
-}
+
 @media (max-width: 1000px) {
   .navbar {
     font-size: 14pt;
