@@ -1,5 +1,5 @@
 body {
-  font-family: "Futura";
+  font-family: 'Futura PT';
   background-color: #c2d7b0;
   margin: auto;
   color: #fdf8ed;
@@ -110,13 +110,13 @@ height: 41px;
 display: none;
 }
 .recipetext {
-  font-family: "Futura";
+  font-family: 'Futura PT';
   text-transform: uppercase;
   font-size: 28pt;
   text-align: center;
 }
 .subtext {
-  font-family: "Futura-CondensedMedium";
+  font-family: 'Futura Condensed PT', sans-serif;     
   text-transform: uppercase;
   text-align: center;
 }
@@ -135,7 +135,7 @@ display: none;
   margin: auto;
   gap: 30px;
   max-width: 700px;
-  font-family: "Futura";
+  font-family: 'Futura PT';
   color: #000000;
   font-size: 16pt;
   margin-top: 150px;
@@ -170,7 +170,7 @@ section {
 .text2 {
   color: #000000;
   font-size: 24pt;
-  font-family: "Futura-CondensedMedium";
+  font-family: 'Futura Condensed PT', sans-serif;     
   margin-top: 20px;
   margin-left: 35px;
 }
