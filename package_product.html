@@ -32,8 +32,10 @@
                   <a href="contact.html" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
-                  <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a>
+                  <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" id="basketheader" class="basketheader"/></a>
+                  <!-- <a href="checkout1.html" id="basketheaderorder"><img src="images/basket-order.svg" alt="Stylized image on a shopping basket" class="basketheaderorder"/></a> -->
               </li>
+
           </ul>
           <div class="hamburger">
               <span class="bar"></span>
@@ -60,6 +62,7 @@
       <div><h4>Choose your recipes</h4><section>
 
         <h5>Choose 1 of each below</h5>
+
 
        <div id="dropdown-menus">
         
@@ -97,8 +100,7 @@
 
         <p class="text" id="amount">300 SEK</p>
         <!-- Used this link to get the button to head to a new page: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html //CÖ-->
-        <button class="btn" onclick="window.location.href='checkout1.html';">Order</button>
-
+        <button class="btn" id="orderbutton" onclick="window.location.href='checkout1.html';">Order</button>
 
     </section></div>
 </span>

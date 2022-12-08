@@ -26,6 +26,9 @@ a:active {
   color: #c2d7b0;
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 /* The following code is the header */
 * {
   padding: 0;
@@ -77,7 +80,7 @@ header {
 }
 .basketheader {
   height: 30px;
-  display: block;
+display: block;
 }
 .basketheaderorder {
   height: 41px;
@@ -195,6 +198,14 @@ input {
   cursor: pointer;
 }
 
+.btn {
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  border: #C2D7B0;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
 @media (max-width: 1000px) {
   .navbar {
     font-size: 14pt;

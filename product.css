@@ -79,6 +79,11 @@ background-color: #FDF8ED;
 }
 .basketheader {
   height: 30px;
+  display: block;
+}
+.basketheaderorder {
+height: 41px;
+display: none;
 }
 
 h4 {

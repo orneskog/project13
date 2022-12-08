@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Select Component</title>
+        <!-- added the fonts needed for the webpage. Information on how to do so is found in the links. /CÖ-->
+    <!-- https://www.cdnfonts.com/futura-pt.font -->
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/futura-pt">
+    <!-- https://www.cdnfonts.com/futura-condensed-pt.font -->
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/futura-condensed-pt">  
+    <link rel="stylesheet" href="package_product_test.css" />
+    <script src="package-items.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
+      <nav class="navbar">
+          <a href="index.html"><img src="images/brunchly_logotype_rgb.svg" class="nav-branding"/></a> 
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="package_overview.html" class="nav-link">Packages</a>
+              </li>
+              <li class="nav-item">
+                  <a href="recipe_overview.html" class="nav-link">Recipes</a>
+              </li>
+              <li class="nav-item">
+                  <a href="aboutus.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" id="basketheader" class="basketheader"/></a>
+                  <!-- <a href="checkout1.html" id="basketheaderorder"><img src="images/basket-order.svg" alt="Stylized image on a shopping basket" class="basketheaderorder"/></a> -->
+              </li>
+
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+    </header><br/>
+
+    <main>
+      <span class="container-package">
+        <div><h4>Couple package</h4><section>
+          <img class="img" src="images/couple package.jpg" alt="image of a couple cooking food" />
+          <p>The couple package includes three dishes. You get to choose one drink,
+            one savory and one sweet dish among our recipes. <br/><br/>
+            We will then send you
+            a package with the chosen recipes and the ingredients to make the
+            dishes at home.</p>
+        </section></div>
+        <div><h4>Choose your recipes:</h4><section>
+          <h5>Drinks</h5>
+          <!-- https://www.youtube.com/watch?v=d7AGL4rsHEM got help from this link to get custom select menues. 
+            Tweaked the design and atributes to fit our company. /CÖ-->
+          <div class="select">
+            <div class="options">
+              <label for="blueberryapple" class="option">
+                <input type="radio" name="role" id="blueberryapple" />
+                <span>Blueberry & Apple Smoothies</span>
+              </label>
+      
+              <label for="mimosas" class="option">
+                <input type="radio" id="mimosas" name="role" />
+                <span>Orange Juice Mimosas</span>
+              </label>
+      
+              <label for="cocobanana" class="option">
+                <input type="radio" id="cocobanana" name="role" />
+                <span>Coco Banana Milkshake</span>
+              </label>
+      
+              <label for="icecoffee" class="option">
+                <input type="radio" id="icecoffee" name="role" />
+                <span>Sweet Vanilla Ice Coffee</span>
+              </label>
+            </div>
+            <div class="selected">-</div>
+          </div>
+          <h5>Savory</h5>
+          <div class="select2">
+            <div class="options2">
+              <label for="avocado" class="option2">
+                <input type="radio" name="role" id="avocado" />
+                <span>Avocado Toast With Poached Eggs</span>
+              </label>
+      
+              <label for="bagels" class="option2">
+                <input type="radio" id="bagels" name="role" />
+                <span>Cream Cheese & Salmon Bagels</span>
+              </label>
+      
+              <label for="omelette" class="option2">
+                <input type="radio" id="omelette" name="role" />
+                <span>Cheese Omelette With Bellpepers</span>
+              </label>
+      
+              <label for="bananabread" class="option2">
+                <input type="radio" id="bananabread" name="role" />
+                <span>Banana Bread With Walnuts And Butter</span>
+              </label>
+            </div>
+            <div class="selected2">-</div>
+          </div>
+          <h5>Sweet</h5>
+          <div class="select3">
+            <div class="options3">
+              <label for="acai" class="option3">
+                <input type="radio" name="role" id="acai" />
+                <span>Açaíbowl With Coconut</span>
+              </label>
+      
+              <label for="swedishwaffles" class="option3">
+                <input type="radio" id="swedishwaffles" name="role" />
+                <span>Swedish Waffles With Raspberries</span>
+              </label>
+      
+              <label for="maplepancakes" class="option3">
+                <input type="radio" id="maplepancakes" name="role" />
+                <span>American Maple Syrup Pancakes</span>
+              </label>
+      
+              <label for="beetrootwaffles" class="option3">
+                <input type="radio" id="beetrootwaffles" name="role" />
+                <span>Beetroot Waffles With Mango Sherbet</span>
+              </label>
+            </div>
+            <div class="margin">
+            <div class="selected3">-</div>
+            <div class="price">300kr</div>
+            <a href="checkout1.html"><div class="btn">Continue Order</div></a></div>
+          </section></div>
+        </div>
+      </span>
+    </main>
+  </body>
+</html>

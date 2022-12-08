@@ -39,6 +39,9 @@ header {
  position: fixed;
  width: 100%;
 }
+li{
+  list-style: none;
+}
 .navbar{
   min-height: 70px;
   display: flex;
@@ -48,7 +51,6 @@ header {
   text-transform: uppercase;
   font-family: 'Futura Condensed PT', sans-serif;     
   font-size: 20pt;
-  list-style: none;
   }
 .nav-menu{
 display: flex;
@@ -78,7 +80,12 @@ transition: all 0.3s ease-in-out;
 background-color: #FDF8ED;
 }
 .basketheader {
-  height: 30px;
+    height: 30px;
+    display: block;
+}
+.basketheaderorder {
+  height: 41px;
+  display: none;
 }
 .gridpackages {
   display: grid;
