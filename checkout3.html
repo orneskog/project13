@@ -47,77 +47,39 @@
     <br/>
     <main>
         <main>
-            <span class="recipegrid">
+            <span class="checkoutgrid">
                 <section class="checkout">
                 <div class="text">CHECKOUT</div>
                 <div class="text2">SELECT PAYMENT METHOD</div>
                 <form class="personalinformation">
                     <label for="cardnumber">Card Number*</label><br>
-                    <input type="text" id="boxtext" name="cardnumber"><br>
+                    <input type="password" id="boxtext" placeholder="1234 1234 1234 1234" name="cardnumber"><br>
                 </form>
                     <form class="personalinformation">
                     <label for="namecard">Name on card*</label><br>
-                    <input type="text" id="boxtext" name="namecard">
+                    <input type="text" id="boxtext" placeholder="Andrea Andersson"name="namecard">
                 </form>
                 <form class="personalinformation">
                     <label for="expirydate">Expiry Date*</label><br>
-                    <input type="text" id="boxtext" name="expirydate"><br>
+                    <input type="text" id="boxtext" placeholder="XX/XX -XX" name="expirydate"><br>
                 </form>
                 <form class="personalinformation">
                     <label for="securitycode">Security code*</label><br>
-                    <input type="text" id="boxtext" name="securitycode">
+                    <input type="text" id="boxtext" placeholder="***" name="securitycode">
                 </form>
             
     
                   <!-- https://www.w3schools.com/html/html_forms.asp We have used this page for help with the text fields.-->
                 </section>
                 <section class="ordersummary">
-                    <div class="text2">Order Summary</div>
-                    <div class="text3">Items: 1 item
-                    </div>
-                    <div class="text3">Order Number: 4467839
-                    </div>
-                    <div class="text3">Package: Couple package - 300 sek
-                    </div>
-                    <div class="text3">Shipping: 49 sek
-                    </div>
-                    <div class="text3">Total to pay: 349 sek
-                    </div>
-                <form class="personalinformation">
-                    <div class="nextstep"><a href="confirmed_purchase.html">Continue to Next Step</a></div>
-                </section>
-                 <!-- Used this link to get the button to head to a new page: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html //CÖ-->
-        <button class="nextstep" onclick="window.location.href='confirmed_purchase.html';">Continue to Next Step</button>
-                    <div class="checkoutgrid">
-                        <div class="contentgrid">
-                      </div>
-    <header>
-        <!-- https://www.youtube.com/watch?v=flItyHiDm7E Used this video to get the code needed to make the header responsive with a hamburger menu. /CÖ-->
-        <nav class="navbar">
-            <a href="index.html"><img src="images/brunchly_logotype_rgb.svg" class="nav-branding"/></a> 
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="package_overview.html" class="nav-link">Packages</a>
-                </li>
-                <li class="nav-item">
-                    <a href="recipe_overview.html" class="nav-link">Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="aboutus.html" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="basket.html"><img src="images/basket.svg" alt="Stylized image on a shopping basket" class="basketheader"/></a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+                    <div class="textorder">Order Summary</div>
+                    
+                    <div class="text3">Items: 1 item<br/>
+                    Order Number: 4467839<br/>
+                    Package: Couple (300 sek)<br/>
+                    Shipping: 49 sek<br/>
+                    Total to pay: 349 sek
+                    </div>            <a href="index.html"><div class="btn">Send Order</div></a>
+                    </section>
 </body>
 </html>

@@ -45,18 +45,7 @@ a:active {
   color: #c2d7b0;
   text-decoration: none;
 }
-.clockicon {
-  max-width: 11pt;
-}
 
-.contentgrid {
-  grid-area: contentgrid;
-  color: #000000;
-  font-size: 8pt;
-  max-width: 380px;
-  font-weight: lighter;
-  margin-left: 10px;
-}
 li {
   list-style: none;
 }
@@ -114,10 +103,7 @@ header {
   height: 30px;
   display: block;
 }
-.basketheaderorder {
-  height: 41px;
-  display: none;
-}
+
 .recipetext {
   font-family: "Futura PT";
   text-transform: uppercase;
@@ -129,9 +115,9 @@ header {
   text-transform: uppercase;
   text-align: center;
 }
-.recipegrid {
+.checkoutgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit);
+  grid-template-columns: repeat(auto-fit, 700px);
   justify-content: center;
   margin: auto;
   gap: 30px;
@@ -142,12 +128,11 @@ header {
   margin-top: 150px;
 }
 .checkout {
-  width: 800px;
-  height: 510px;
   justify-content: center;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .ordersummary {
-  width: 800px;
   height: 340px;
   justify-content: center;
 }
@@ -160,11 +145,12 @@ header {
 }
 section {
   background-color: #fdf8ed;
+  border-radius: 20px;
 }
 .text {
   color: #000000;
   font-size: 30pt;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
   margin-top: 5px;
 }
@@ -173,7 +159,40 @@ section {
   font-size: 24pt;
   font-family: "Futura Condensed PT", sans-serif;
   margin-top: 20px;
-  margin-left: 35px;
+  text-transform: uppercase;
+}
+.textorder {
+  color: #000000;
+  font-size: 24pt;
+  font-family: "Futura Condensed PT", sans-serif;
+  margin-top: 20px;
+  margin-left: 34px;
+  text-transform: uppercase;
+}
+.text3 {
+  color: #000000;
+  font-size: 14pt;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+#boxtext {
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.personalinformation {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+
+.ordersummary {
+  padding-bottom: 20px;
+  height: 280px;
+  text-transform: uppercase;
+  justify-content: center;
 }
 .text3 {
   color: #000000;
@@ -181,34 +200,27 @@ section {
   margin-top: 20px;
   margin-left: 35px;
   font-weight: lighter;
+  line-height: 2;
 }
-#boxtext {
-  width: 500px;
-  height: 40px;
-}
-
-.personalinformation {
-  margin-left: 37px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  font-size: smaller;
-}
-.pi2 {
-  margin-top: -324px;
-}
-.columns-fields {
-  column-count: 2;
-}
-.nextstep {
-  width: 155px;
-  height: 90px;
-  background-color: #c2d7b0;
-  font-size: 16pt;
-  font-weight: bolder;
+.btn {
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  border: #C2D7B0;
+  margin-top: -68px;
+  margin-right: 20px;
+  float: right;
+  height: 60px;
+  width: 120px;
   text-align: center;
-  margin-left: 620px;
-  margin-top: -145px;
-  color: #fdf8ed;
+  padding-top: 20px;
+  font-size: 12pt;
+  border-radius: 5px;
+}
+.btn:link{
+  color: #FDF8ED;
+}
+.btn:hover{
+  text-decoration: underline;
 }
 @media (max-width: 1000px) {
   .navbar {
@@ -255,6 +267,36 @@ section {
       box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;
     }
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+    .checkoutgrid {
+      grid-template-columns: repeat(auto-fit, 300px);
+      max-width: 300px;
+      margin-top: 100px;
+    }
+    #boxtext {
+      width: 270px;
+      height: 40px;
+      text-align: center;
+      font-size: 14pt;
+    }
+    
+    .btn {
+      background-color: #C2D7B0;
+      color: #FDF8ED;
+      border: #C2D7B0;
+      margin-top: 20px;
+      margin-right: 20px;
+      float: right;
+      height: 60px;
+      width: 120px;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 12pt;
+      border-radius: 5px;
+    }
+    .ordersummary {
+      height: 370px;
+      margin-bottom: 30px;
+    }
   }
   @media screen and (max-width: 590px) {
     .recipestartpage {
