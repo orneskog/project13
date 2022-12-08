@@ -39,19 +39,20 @@ header {
  position: fixed;
  width: 100%;
 }
-li {
+li{
   list-style: none;
+
 }
 .navbar{
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-family: 'Futura Condensed PT', sans-serif;     
-  font-size: 20pt;
-  }
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 15px;
+text-transform: uppercase;
+font-family: 'Futura Condensed PT', sans-serif;     
+font-size: 20pt;
+}
 .nav-menu{
 display: flex;
 justify-content:center;
@@ -80,14 +81,32 @@ margin: 5px auto;
 transition: all 0.3s ease-in-out;
 background-color: #FDF8ED;
 }
+.gridpackages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 30px;
+  max-width: 1220px;
+  margin: auto;
+  font-family: 'Futura PT';     
+  text-transform: uppercase;
+  font-size: 16pt;
+  padding: 20px;
+  margin-top: 150px;
+}
 .basketheader {
   height: 30px;
   display: block;
 }
-.basketheaderorder {
-height: 41px;
-display: none;
+.peopleimage {
+  max-width: 280px;
+  border-radius: 30px;
 }
+.peopleimage {
+  max-width: 280px;
+  border-radius: 30px;
+}
+
 .recipestartpage {
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
@@ -101,8 +120,9 @@ display: none;
   padding-bottom: 30px;
   margin-top: 100px;
 }
-.recipe {
+.recipeimage {
   max-width: 120px;
+
 }
 .linkrecipestartpage {
   float: right;
@@ -113,12 +133,14 @@ display: none;
 section {
   background-color: #fdf8ed;
   padding: 10px;
+  border-radius: 20px;
 }
 h4 {
   font-weight: lighter;
   font-size: 24pt;
   font-weight: 400;
   color: #fdf8ed;
+  margin-left: 10px;
 }
 h5 {
   margin-top: -2px;
@@ -147,8 +169,9 @@ h6 {
     padding-bottom: 30px;
     margin-top: 100px;
   }
-  .recipe {
+  .recipeimage {
     max-width: 100px;
+    border-radius: 10px;
   }
   h5 {
     font-size: 11pt;

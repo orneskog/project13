@@ -98,10 +98,6 @@ background-color: #FDF8ED;
   height: 30px;
   display: block;
 }
-.basketheaderorder {
-height: 41px;
-display: none;
-}
 .peopleimage {
   max-width: 280px;
   border-radius: 30px;
@@ -118,6 +114,7 @@ section {
   list-style:inside;
   color: #000000;
   height: 386px;
+  border-radius: 10px;
 }
 h4 {
   font-weight: 500;
