@@ -11,7 +11,7 @@
     <!-- https://www.cdnfonts.com/futura-condensed-pt.font -->
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/futura-condensed-pt">  
     <script src="main.js" defer></script>
-    <title>Brunchly Checkout 1</title>
+    <title>Brunchly Checkout 2</title>
 </head>
 <body>
     <header>
@@ -45,51 +45,44 @@
     </header>
     <br/>
     <main>
-        <span class="recipegrid">
+        <span class="checkoutgrid">
             <section class="checkout">
             <div class="text">CHECKOUT</div>
-            <div class="text2">SHIPPING</div>
+            <div class="text2">Shipping</div>
             <div class="p1">Shipping Adress:</div>
-            <div class="p">Andrea Andersson</div>
-            <div class="p">Adelgatan 52</div>
-                <div class="p">55768 Jönköping</div>
-                    <div class="p">Sweden</div>
-            <div class="text2">When do you want your order to be delivered?</div>
-            <div class="p2">○ Budbee Home Delivery</div>
+            <div class="p">
+                Andrea Andersson<br/>
+                Adelgatan 52<br/>
+                55768 Jönköping<br/>
+                Sweden</div>
+                <div class="p2">○ Budbee Home Delivery</div>
+                <br/>
+            <div class="textdelivery">Time of Delivery</div>
             <div class="date">Which date?</div>
-            <div class="time">Which time?</div>
-            <div class="timedate">
-                <div class="thursday">Thursday 17/12</div>
-                <div class="thursday">Friday 18/12</div>
-                <p> </p>
-                <div class="thursday">Between 8am-4pm</div>
-                <div class="thursday">Saturday 19/12</div>
-                <div class="thursday">Sunday 20/12</div>
-                <p> </p>
-                <div class="thursday">Between 4pm-10pm</div>
-            </div>
+            <div class="dategrid">
+                <div class="date1">Thursday 17/12</div>
+                <div class="date2">Friday 18/12</div>
+                <div class="date3">Saturday 19/12</div>
+                <div class="date4">Sunday 20/12</div>
+            </div><br/>
+            <div class="date">Which time?</div>
+            <div class="timegrid">
+                <div class="time1">Between<br/>8am-4pm</div>
+                <div class="time2">Between<br/>4pm-10pm</div>
+              </div>
         </div>
 
               <!-- https://www.w3schools.com/html/html_forms.asp We have used this page for help with the text fields.-->
             </section>
             <section class="ordersummary">
                 <div class="text2">Order Summary</div>
-                <div class="text3">Items: 1 item
-                </div>
-                <div class="text3">Order Number: 4467839
-                </div>
-                <div class="text3">Package: Couple package - 300 sek
-                </div>
-                <div class="text3">Shipping: 49 sek
-                </div>
-                <div class="text3">Total to pay: 349 sek
-                </div>
-            <form class="personalinformation">
-            </section>
-             <!-- Used this link to get the button to head to a new page: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html //CÖ-->
-        <button class="nextstep" onclick="window.location.href='checkout3.html';">Continue to Next Step</button>
-                <div class="checkoutgrid">
-                    <div class="contentgrid">
-                  </div>
+                
+                <div class="text3">Items: 1 item<br/>
+                Order Number: 4467839<br/>
+                Package: Couple (300 sek)<br/>
+                Shipping: 49 sek<br/>
+                Total to pay: 349 sek
+                </div>            <a href="checkout2.html"><div class="btn">Continue Order</div></a>
+                </section>
 </body>
 </html>

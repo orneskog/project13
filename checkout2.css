@@ -7,20 +7,17 @@ body {
 .p {
   font-family: Arial;
   font-size: 16pt;
-  margin-left: 35px;
+  margin-bottom: 5px;
 }
 .p1 {
   font-family: Arial;
   font-size: 16pt;
-  margin-left: 35px;
   font-weight: bold;
   margin-top: 16px;
 }
 .p2 {
   font-family: Arial;
   font-size: 16pt;
-  margin-left: 35px;
-  font-weight: bold;
   margin-top: 10px;
 }
 a:link {
@@ -79,7 +76,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 60px;
-}
+} 
 .nav-branding{
   font-size: 30pt;
   padding-right: 20px;
@@ -117,40 +114,35 @@ header {
   text-align: center;
 }
 .subtext {
-  font-family: "Futura Condensed PT", sans-serif;
+  font-family: 'Futura Condensed PT', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 .date {
-  margin-left: 160px;
-  margin-top: 20px;
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 18pt;
+  margin-bottom: 5px;  
 }
-.time {
-  margin-left: 558px;
-  margin-top: -26px;
-}
-.recipegrid {
+.checkoutgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit);
+  grid-template-columns: repeat(auto-fit, 700px);
   justify-content: center;
   margin: auto;
   gap: 30px;
   max-width: 700px;
-  font-family: "Futura PT";
+  font-family: 'Futura PT';
   color: #000000;
   font-size: 16pt;
   margin-top: 150px;
 }
 .checkout {
-  width: 800px;
-  height: 530px;
-  justify-content: center;
-}
-.ordersummary {
-  width: 800px;
   height: 340px;
   justify-content: center;
+  columns: 2;
+  padding-left: 34px;
 }
+
 .producttext {
   color: #000000;
   font-size: 8pt;
@@ -160,20 +152,31 @@ header {
 }
 section {
   background-color: #fdf8ed;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 .text {
   color: #000000;
   font-size: 30pt;
   font-weight: bolder;
-  text-align: center;
-  margin-top: 5px;
+  margin-top: 17px;
+  margin-left: -5px;
 }
 .text2 {
   color: #000000;
   font-size: 24pt;
   font-family: "Futura Condensed PT", sans-serif;
   margin-top: 20px;
-  margin-left: 35px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.textdelivery {
+  color: #000000;
+  font-size: 24pt;
+  font-family: "Futura Condensed PT", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .text3 {
   color: #000000;
@@ -205,34 +208,105 @@ section {
 .columns-fields {
   column-count: 2;
 }
-.timedate {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  max-width: 700px;
-}
-.thursday {
-  width: 160px;
-  height: 35px;
-  background-color: #c2d7b0;
-  font-size: 13pt;
+.dategrid {  display: grid;
+  grid-template-columns: 140px 140px;
+  font-size: 14pt;
+  grid-template-rows: 50px 50px;
+  gap: 10px 10px;
   text-align: center;
-  margin-top: 16px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "date1 date2"
+    "date3 date4";
+}
+.date1 { grid-area: date1; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 14px;
+  border-radius: 5px;
+}
+.date2 { grid-area: date2; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 14px;
+  border-radius: 5px;
+}
+.date3 { grid-area: date3; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 14px;
+  border-radius: 5px;
+}
+.date4 { grid-area: date4; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 14px;
+  border-radius: 5px;
+}
+
+.timegrid {  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 50px;
+  gap: 10px 10px;
+  font-size: 14pt;
+  text-align: center;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "time1 time2";
+}
+.time1 { grid-area: time1; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+.time2 { grid-area: time2; 
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+
+.ordersummary {
+  padding-bottom: 20px;
+  height: 280px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.text2 {
+  color: #000000;
+  font-size: 24pt;
+  font-family: "Futura Condensed PT", sans-serif;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.text3 {
+  color: #000000;
+  font-size: 14pt;
+  margin-top: 20px;
   margin-left: 35px;
-  padding-top: 7px;
+  font-weight: lighter;
+  line-height: 2;
 }
-.nextstep {
-  width: 155px;
-  height: 90px;
-  background-color: #c2d7b0;
-  font-size: 16pt;
-  font-weight: bolder;
+.btn {
+  background-color: #C2D7B0;
+  color: #FDF8ED;
+  border: #C2D7B0;
+  margin-top: -68px;
+  margin-right: 20px;
+  float: right;
+  height: 60px;
+  width: 120px;
   text-align: center;
-  margin-left: 620px;
-  margin-top: -145px;
-  color: #fdf8ed;
+  padding-top: 10px;
+  font-size: 12pt;
+  border-radius: 5px;
+}
+.btn:link{
+  color: #FDF8ED;
+}
+.btn:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 1000px) {
@@ -280,6 +354,100 @@ section {
       box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;
     }
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+  }
+  .checkoutgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    max-width: 300px;
+    font-family: 'Futura PT';
+    color: #000000;
+    font-size: 16pt;
+    margin-top: 150px;
+  }
+
+  .checkout {
+    height: 600px;
+    justify-content: center;
+    columns: 1;
+    padding-left: 10px;
+  }
+  .ordersummary {
+    height: 360px;
+  }
+  .btn {
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .text {
+    font-size: 34pt;
+    font-weight: bolder;
+    margin-top: 17px;
+    text-align: center;
+  }
+  .text2 {
+    color: #000000;
+    font-size: 20pt;
+    font-family: "Futura Condensed PT", sans-serif;
+    margin-top: 20px;
+    margin-left: 12px;
+    text-transform: uppercase;
+  }
+  .textdelivery {
+    color: #000000;
+    font-size: 20pt;
+    font-family: "Futura Condensed PT", sans-serif;
+    margin-top: -70px;
+    margin-left: 12px;
+    text-transform: uppercase;
+  }
+  .p {
+    font-size: 12pt;
+    margin-left: 12px;
+    margin-bottom: 20px;
+  }
+  .p1 {
+    font-size: 14pt;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  .p2 {
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+  .date {
+    font-size: 12pt;
+  }
+  .time {
+    margin-left: 208px;
+    margin-top: 20px;
+    font-size: 8pt;
+  }
+  .dategrid {  display: grid;
+    grid-template-columns: 134px 134px;
+    font-size: 14pt;
+    grid-template-rows: 50px 50px;
+    gap: 10px 10px;
+    text-align: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "date1 date2"
+      "date3 date4";
+  }
+  .timegrid {  display: grid;
+    grid-template-columns: 134px 134px;
+    grid-template-rows: 50px;
+    gap: 10px 10px;
+    font-size: 14pt;
+    text-align: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "time1 time2";
   }
 }
 @media screen and (max-width: 590px) {

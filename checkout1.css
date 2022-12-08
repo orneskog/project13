@@ -1,5 +1,5 @@
 body {
-  font-family: "Futura PT";
+  font-family: 'Futura PT';
   background-color: #c2d7b0;
   margin: auto;
   color: #fdf8ed;
@@ -83,13 +83,7 @@ header {
   height: 30px;
 display: block;
 }
-.basketheaderorder {
-  height: 41px;
-  display: none;
-}
-.clockicon {
-  max-width: 11pt;
-}
+
 .contentgrid {
   grid-area: contentgrid;
   color: #000000;
@@ -110,9 +104,9 @@ display: block;
   text-align: center;
 }
 
-.recipegrid {
+.checkoutgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit);
+  grid-template-columns: repeat(auto-fit,700px);
   justify-content: center;
   margin: auto;
   gap: 30px;
@@ -124,38 +118,37 @@ display: block;
   margin-top: 150px;
 }
 .checkout {
-  width: 800px;
-  height: 480px;
-  justify-content: center;
+  padding-bottom: 20px;
 }
 .ordersummary {
-  width: 800px;
-  height: 340px;
-  justify-content: center;
-}
-.producttext {
-  color: #000000;
-  font-size: 8pt;
-  max-width: 300px;
-  font-weight: lighter;
-  margin-left: 10px;
+  padding-bottom: 20px;
+  height: 280px;
 }
 section {
   background-color: #fdf8ed;
+  border-radius: 20px;
 }
 .text {
   color: #000000;
   font-size: 30pt;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
   margin-top: 5px;
+  
 }
 .text2 {
   color: #000000;
   font-size: 24pt;
   font-family: "Futura Condensed PT", sans-serif;
   margin-top: 20px;
-  margin-left: 35px;
+  margin-left: 34px;
+}
+.textpersonalinfo {
+  color: #000000;
+  font-size: 24pt;
+  font-family: "Futura Condensed PT", sans-serif;
+  margin-top: 20px;
+  padding-left: 43px;
 }
 .text3 {
   color: #000000;
@@ -163,6 +156,7 @@ section {
   margin-top: 20px;
   margin-left: 35px;
   font-weight: lighter;
+  line-height: 2;
 }
 #boxtext {
   width: 300px;
@@ -173,17 +167,16 @@ input {
 }
 
 .personalinformation {
-  margin-left: 37px;
   margin-top: 20px;
   margin-bottom: 5px;
   font-size: smaller;
   column-count: 2;
+  line-height: 2;
+  padding-left: 43px;
+
 }
 .pi2 {
   margin-top: -324px;
-}
-.columns-fields {
-  column-count: 2;
 }
 .nextstep {
   width: 155px;
@@ -203,17 +196,28 @@ input {
   background-color: #C2D7B0;
   color: #FDF8ED;
   border: #C2D7B0;
-  width: 200px;
-  height: 40px;
-  cursor: pointer;
+  margin-top: -70px;
+  margin-right: 20px;
+  float: right;
+  height: 60px;
+  width: 120px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12pt;
+  border-radius: 5px;
+}
+.btn:link{
+  color: #FDF8ED;
+}
+.btn:hover{
+  text-decoration: underline;
 }
 @media (max-width: 1000px) {
   .navbar {
     font-size: 14pt;
   }
 }
-@media screen and (max-width: 833px) {
-  @media (max-width: 833px) {
+@media (max-width: 833px){
     .bar {
       background-color: #c2d7b0;
     }
@@ -252,8 +256,35 @@ input {
       box-shadow: rgba(0, 0, 0, 0.4) 0px 400px 100px 100px;
     }
     /* https://getcssscan.com/css-box-shadow-examples used this link to get drop shadow properties. */
+  
+  .personalinformation {
+    column-count: 1;
+    padding-left: 15px;
+  }
+  .checkoutgrid {
+    grid-template-columns: repeat(auto-fit,300px);
+    gap: 20px;
+    max-width: 300px;
+    margin-top: 150px;
+  }
+  .checkout {
+    padding-bottom: 25px;
+  }
+
+  .textpersonalinfo {
+    padding-left: 15px;
+  }
+  .ordersummary {
+  padding-bottom: 20px;
+  height: 360px;
+  margin-bottom: 30px;
+}
+  .btn {
+    margin-top: 10px;
+    margin-right: 20px;
   }
 }
+
 @media screen and (max-width: 590px) {
   .recipestartpage {
     max-width: 300px;
