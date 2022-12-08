@@ -14,6 +14,7 @@ input[type="radio"] {
   position: relative;
   background-color: #fff;
   padding: 12px;
+  padding-top: 14px;
   border-radius: 4px;
   cursor: pointer;
   border-style: solid;
@@ -94,6 +95,7 @@ input[type="radio"] {
   position: relative;
   background-color: #fff;
   padding: 12px;
+  padding-top: 14px;
   border-radius: 4px;
   cursor: pointer;
   border-style: solid;
@@ -174,6 +176,7 @@ input[type="radio"] {
   position: relative;
   background-color: #fff;
   padding: 12px;
+  padding-top: 14px;
   border-radius: 4px;
   cursor: pointer;
   border-style: solid;
@@ -350,6 +353,7 @@ padding-left: 15px;
 padding-right: 15px; 
 padding-top: 10px;
 min-height: 470px;
+margin-bottom: 30px;
 }
 .img {
   width: 410px;
@@ -371,7 +375,7 @@ h5 {
   margin-top: 20px;
 }
 .margin {
-height: 200px;}
+height: 160px;}
 
 .btn {
   background-color: #C2D7B0;
