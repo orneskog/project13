@@ -1,21 +1,26 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+
 const selected = document.querySelector('.selected');
 const options = document.querySelector('.options');
 const optionList = document.querySelectorAll('.option');
-const selected2 = document.querySelector('.selected2');
-const options2 = document.querySelector('.options2');
-const optionList2 = document.querySelectorAll('.option2');
-const selected3 = document.querySelector('.selected3')
-const options3 = document.querySelector('.options3')
-const optionList3 = document.querySelectorAll('.option3')
 
 selected.addEventListener('click', () => {
     options.classList.toggle('active')
 })
+
+const selected2 = document.querySelector('.selected2');
+const options2 = document.querySelector('.options2');
+const optionList2 = document.querySelectorAll('.option2');
+
 selected2.addEventListener('click', () => {
     options2.classList.toggle('active')
 })
+
+const selected3 = document.querySelector('.selected3')
+const options3 = document.querySelector('.options3')
+const optionList3 = document.querySelectorAll('.option3')
+
 selected3.addEventListener('click', () => {
     options3.classList.toggle('active')
 })
