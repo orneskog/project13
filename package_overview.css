@@ -24,12 +24,9 @@ a:active {
 
 body {
   font-family: "Futura";
-  background-color: #FDF8ED;
+  background-color: #C2D7B0;
   margin: auto;
   color: #FDF8ED;
-}
-main {
-  background-color: #C2D7B0;
 }
 /* The following code is the header */
 * {
